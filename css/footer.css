@@ -1,0 +1,361 @@
+/* FOOTER */
+
+.BckImg {
+    background-position: 0% 46% !important;
+    background-repeat: no-repeat !important;
+}
+
+.FootDiv {
+    height: 391.65px;
+    background: #000000;
+}
+
+.FootDiv ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 9rem;
+}
+
+.FootDiv ul li {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.9px;
+    line-height: 24px;
+    color: #FFFFFF;
+    height: 35px;
+}
+
+.FootDiv .container {
+    max-width: 1250px !important;
+}
+
+.footLogo {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 4rem;
+}
+
+.SocIcon {
+    margin-top: 3.5rem;
+}
+
+.SubBtn {
+    width: 141.19px;
+    height: 48px;
+    background: #D23636;
+    border-color: #D23636;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.SubBtn:focus {
+    border-color: #D23636;
+    outline: none;
+    box-shadow: none;
+}
+
+.SubBtn:hover {
+    color: #fff;
+}
+
+.IEmail {
+    width: 354.53px;
+    height: 49px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background: transparent;
+    margin-top: 2rem;
+}
+
+.IEmail:focus {
+    outline: none;
+}
+
+.newsHead {
+    width: 358px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 4rem;
+}
+
+.FootBottom {
+    color: #fff;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 4rem;
+}
+
+.IEmail::placeholder {
+    padding-left: 1rem;
+}
+
+.FootLft {
+    margin-left: 6rem;
+}
+
+.FLft {
+    margin-left: 1rem;
+}
+
+
+/* END OF FOOTER */
+
+@media (max-width: 1280px) {
+    .FootDiv .container {
+        max-width: 1195px !important;
+    }
+    .FootLft {
+        margin-left: 5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .FLft {
+        margin-left: 0.7rem;
+    }
+    .FootLft {
+        margin-left: 4rem;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {
+    .IEmail {
+        width: 330px;
+    }
+    .FootDiv ul {
+        display: inline-block;
+        width: 40%;
+        list-style-type: none;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+    }
+    .FootLft {
+        margin-left: 1rem;
+    }
+    .MbTp1 {
+        margin-top: 5rem;
+        padding-left: 4.5rem;
+    }
+    .IpadLft {
+        margin-left: 0rem !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .newsHead {
+        width: 330px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 969px) and (min-width: 800px) {
+    .FootDiv {
+        height: 100%;
+    }
+    .FootLft {
+        margin-left: 0rem;
+    }
+    .BckImg {
+        background-position: 0% 20% !important;
+    }
+    .ml-5.IpadLft {
+        margin-left: 0rem !important;
+    }
+    .ml-5.IpadLft {
+        text-align: center;
+    }
+}
+
+@media (max-width: 769px) {
+    .FootDiv {
+        height: 100%;
+        background: #000000;
+    }
+    .FootDiv ul {
+        display: inline-block;
+        width: 40%;
+        list-style-type: none;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+    }
+    .IEmail {
+        width: 382px;
+    }
+    .BckImg {
+        background-position: 0% 20% !important;
+    }
+    .MbTp1 {
+        margin-top: 5rem;
+        padding-left: 4rem;
+    }
+    .ml-5.IpadLft {
+        text-align: center;
+    }
+    .footLogo {
+        margin-top: 3rem;
+        margin-left: -2.8rem;
+    }
+    .SocIcon {
+        margin-top: 2rem;
+        margin-left: -2.8rem;
+    }
+    .FootLft {
+        margin-left: -4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .BckImg {
+        background-position: 0% 10% !important;
+    }
+    .newsHead {
+        font-size: 26px;
+        line-height: 34px;
+        margin-top: 2rem;
+    }
+    .MbTp1 {
+        padding-left: 15px;
+    }
+    .FLft {
+        margin-left: 1.5rem;
+    }
+    .FootBottom {
+        margin-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    .termP,
+    .priP {
+        display: none;
+    }
+    .copP {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 541px) and (min-width: 421px) {
+    .SurView {
+        width: 50% !important;
+    }
+    .newsHead {
+        width: 250px;
+    }
+    .MbTp1 {
+        width: 50% !important;
+    }
+}
+
+@media (max-width:541px) {
+    .FootDiv ul {
+        display: inline-block;
+        width: 40%;
+        list-style-type: none;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+    }
+    .IEmail {
+        width: 255px;
+    }
+    .footLogo {
+        margin-top: 3rem;
+        margin-left: -2.8rem;
+    }
+    .SocIcon {
+        margin-top: 2rem;
+        margin-left: -2.8rem;
+    }
+    .MbTp1 {
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width:421px) {
+    .FootDiv ul {
+        display: inline-block;
+        width: 49%;
+        list-style-type: none;
+        margin-top: 0px;
+        margin-bottom: 0px !important;
+    }
+    .IEmail {
+        width: 382px;
+    }
+    .MbTp1 {
+        margin-top: 3rem;
+        margin-left: -2.5rem;
+    }
+    .ml-5.IpadLft {
+        text-align: left;
+    }
+    .footLogo {
+        margin-top: 3rem;
+        margin-left: -2.8rem;
+    }
+    .SocIcon {
+        margin-top: 2rem;
+        margin-left: -2.8rem;
+    }
+    .copP {
+        width: 202px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 376px) {
+    .IEmail {
+        width: 343px;
+    }
+}
+
+@media (max-width: 361px) {
+    .newsHead {
+        width: 330px;
+    }
+    .IEmail {
+        width: 332px;
+    }
+}
+
+@media (max-width: 321px) {
+    .newsHead {
+        width: 300px;
+    }
+    .IEmail {
+        width: 290px;
+    }
+}

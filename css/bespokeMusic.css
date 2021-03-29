@@ -1,0 +1,680 @@
+.lib-head {
+    font-size: 96px;
+    font-family: 'Montserrat', sans-serif !important;
+    height: 104px;
+    text-transform: uppercase;
+}
+
+.s-content {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.NDs {
+    float: right;
+    font-size: 4rem;
+    margin-top: -6.8rem;
+    color: #000;
+}
+
+.NDs:hover {
+    color: #000;
+}
+
+.row.down-arrow {
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.song-icon {
+    visibility: hidden;
+}
+
+.a-sort {
+    margin-left: 30px;
+}
+
+.icon-text {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    color: #000000;
+    margin-right: 8%;
+}
+
+.icon-text1 {
+    margin-left: 15%;
+}
+
+.icon-text11 {
+    margin-left: 1%;
+}
+
+.sort-div {
+    display: none;
+    width: 180px;
+    margin-left: -30px;
+    margin-top: 5px;
+    box-shadow: 4px 5px 5px -1px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    position: absolute;
+    background: #fff;
+}
+
+.sort-div img {
+    width: 179.9px;
+}
+
+.sort-div a {
+    color: #000;
+}
+
+
+/* Bespoke Music Modal*/
+
+.pagi {
+    width: 65px;
+    height: 65px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.pagiText {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    min-width: 91px;
+}
+
+.pt1 {
+    margin-left: 1rem;
+}
+
+.pt2 {
+    margin-left: -0.5rem;
+}
+
+.pagi:hover {
+    background: #D23636;
+    border-color: #D23636;
+    color: #fff;
+}
+
+.midLine {
+    margin-top: 2rem;
+    margin-left: 0rem;
+}
+
+.besDiv {
+    text-align: center;
+}
+
+.besDiv img {
+    width: 100%;
+}
+
+.modal-title {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 72px;
+    line-height: 80px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-style: normal;
+    margin-bottom: 2rem;
+}
+
+.modal-header {
+    padding-bottom: 0;
+}
+
+.modal-content {
+    height: 100% !important;
+    padding: 40px 33px;
+}
+
+.collB {
+    margin-bottom: 7.04rem;
+}
+
+.modal-body {
+    padding-top: 0;
+}
+
+.mInfo {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 2.2rem;
+    margin-top: 0.5rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+.lbl {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 1rem;
+}
+
+.myForm::placeholder,
+.myText::placeholder,
+.collB::placeholder {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.myForm,
+.myText,
+.collB {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding-left: 0.5rem;
+}
+
+.myForm,
+.collB {
+    width: 100%;
+    height: 52px;
+}
+
+.textDiv {
+    margin-top: 2.3rem;
+    margin-bottom: 1.9rem;
+}
+
+.myText {
+    width: 100%;
+    height: 109px;
+    padding-top: 10px;
+}
+
+.crtBtn {
+    width: 97%;
+    height: 48px;
+    background: #000000;
+    border-color: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0.7%;
+}
+
+.ModalSBtn {
+    float: right;
+}
+.ModalSBtn img{margin-right:8px;}
+.ModalSBtn span{
+	font-family: 'Roboto', sans-serif !important;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='rgba(0, 0, 0, 0.8)' height='35' viewBox='0 0 24 24' width='35' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 50%;
+  outline:none;
+  cursor: pointer;
+}
+
+select option:checked {
+	background: linear-gradient(#000, #000) !important;
+	background-color: #d6d6d6 !important;
+	color: #fff !important;
+}
+
+.btnGrid1 button, .btnGrid1 select{
+	width: 349.68px;
+	height: 52px;
+	border: 1.5px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 6px;
+	text-align:left;
+	padding-left:3%;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.GDiv button{
+	width: 160px;
+	height: 40px;
+	border: 1.5px solid rgba(0, 0, 0, 0.6);
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+.GDiv button:focus{
+	background:rgba(0, 0, 0, 0.8);
+	border-color:rgba(0, 0, 0, 0.8);
+	color:#fff;
+}
+.nInfo{
+	display:inline-block;
+	margin-top:0;
+	margin-bottom:0;
+}
+.nIDiv{
+	margin-top:1.5rem;
+	margin-bottom:2.7rem;
+}
+.mGHead{
+	font-family: 'Roboto', sans-serif !important;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 48px;
+	color: rgba(0, 0, 0, 0.8);
+	margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+a.ModalSBtn {
+    margin-top: 0.9rem;
+}
+.lstGrid{margin-bottom:5.6rem;}
+
+/*End Bespoke Modal*/
+
+.md1,
+.tick1,
+.tick2,
+.OnPadViewOnly,
+.notD {
+    display: none;
+}
+
+@media (max-width: 2000px) {
+    .a-sort {
+        margin-left: 60px;
+    }
+    .row.down-arrow {
+        margin-top: 3.2rem;
+    }
+    /* Bespoke Modal*/
+    .midLine.md1 {
+        width: 90%;
+    }
+    /* End Of Bespoke Modal*/
+}
+
+@media (max-width: 1800px) {}
+
+@media (max-width: 1440px) {
+    .s-content {
+        flex: 0 0 77%;
+        padding-left: 0px;
+    }
+    .row.down-arrow {
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .a-sort {
+        margin-left: 52px;
+    }
+    /* Bespoke Modal*/
+    .midLine.md1 {
+        width: 100%;
+    }
+    /* End Of Bespoke Modal*/
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1366px) {
+    .a-sort {
+        margin-left: 42px;
+    }
+    /* Bespoke Modal*/
+    img.midLine {
+        width: 100%;
+    }
+    /* End Of Bespoke Modal*/
+}
+
+@media (max-width: 1280px) {
+    .s-content {
+        padding-left: 8px;
+    }
+    .NDs {
+        margin-top: -3.9rem !important;
+    }
+    .a-sort {
+        margin-left: 35px;
+    }
+    /* Bespoke Modal*/
+    /* End Of Bespoke Modal*/
+}
+
+@media (max-width: 1200px) {
+    .a-sort {
+        margin-left: 6px;
+    }
+    /* Bespoke Modal*/
+    .myForm,
+    .myText,
+    .collB,
+    .file-div {
+        width: 100%;
+    }
+	.btnGrid1 button, .btnGrid1 select {
+		width: 315px;
+	}
+	.GDiv button {
+		width: 145px;
+	}
+    /* End Of Bespoke Modal*/
+}
+
+@media (max-width: 1024px) {
+    .lib-head {
+        height: 170px;
+        font-size: 65px;
+    }
+    .s-content {
+        flex: unset !important;
+    }
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .NDs {
+        margin-top: -10.6rem !important;
+        position: absolute;
+        right: 0;
+    }
+    .icon-text1 {
+        margin-left: 12%;
+    }
+    .a-sort {
+        margin-left: -3px;
+    }
+    /* Bespoke Modal*/
+    .pagi {
+        width: 55px;
+        height: 55px;
+    }
+    .pagiText {
+        font-size: 14px;
+    }
+    img.midLine {
+        width: 65%;
+        margin-left: 0.6rem;
+    }
+    .pt1 {
+        margin-left: 0.8rem;
+    }
+	.btnGrid1 button, .btnGrid1 select {
+		width: 275px;
+	}
+	.GDiv button {
+		width: 125px;
+	}
+    /* End Of Bespoke Modal*/
+}
+
+@media (max-width: 992px) and (min-width:858px) {
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    /* Bespoke Modal*/
+    img.midLine {
+        width: 65%;
+        margin-left: 0.6rem;
+    }
+    /* End Of Bespoke Modal*/
+}
+
+@media (max-width: 969px) and (min-width:858px) {
+    .s-content {
+        flex: unset !important;
+    }
+	.btnGrid1 button, .btnGrid1 select,.GDiv button {
+		width: 256px;
+	}
+}
+
+@media (max-width: 857px) and (min-width:769px) {
+    .col-lg-9.s-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    .lib-head {
+        height: 72px;
+        font-size: 57.4px;
+    }
+    .s-content {
+        padding-left: 15px;
+    }
+    .col-lg-9.s-content {
+        width: 1200px;
+    }
+    .NDs {
+        margin-top: -4.2rem !important;
+        right: 2.5%;
+    }
+    .d-none {
+        display: block !important;
+    }
+    .OnPadViewOnly,
+    .ex-space {
+        display: none;
+    }
+	.btnGrid1 button, .btnGrid1 select,.GDiv button {
+		width: 195px;
+	}
+}
+
+@media(max-width: 541px) and (min-width:420px) {
+    .d-none1 {
+        display: none !important;
+    }
+    .NDs {
+        margin-top: -3.2rem !important;
+    }
+    .my-div2 {
+        width: 25% !important;
+    }
+    .my-div1 {
+        width: 75% !important;
+    }
+    .a-sort {
+        margin-left: 5px;
+    }
+    /* Bespoke Modal*/
+    .modal-title {
+        font-size: 50px;
+    }
+    /* End Bespoke Modal*/
+}
+@media (max-width: 969px) {
+	.tb{margin-top: 1rem;}
+}
+
+@media (max-width: 767px) {
+    .lib-head {
+        height: 80px;
+        font-size: 45px;
+        margin-top: -4.5%;
+        display: inline-block;
+        width: 91%;
+    }
+    .notD {
+        margin-top: 1.5rem !important;
+    }
+    .row.down-arrow {
+        margin-top: 1.2rem;
+        margin-bottom: 0.9rem;
+    }
+    .my-div1 {
+        width: 59%;
+    }
+    .my-div2 {
+        width: 41%;
+    }
+    .a-sort {
+        display: none;
+    }
+    .collB {
+        margin-bottom: 4.5rem;
+    }
+    .crtBtn {
+        width: 93%;
+        bottom: 0;
+    }
+    .drpMainDiv {
+        margin-bottom: 1.3rem;
+        margin-top: -2rem !important;
+    }
+    .NDs,
+    .notD {
+        display: unset;
+    }
+    .d-none1,
+    .notM,.mbNot {
+        display: none !important;
+    }
+    /* Bespoke Modal */
+    .pagi {
+        width: 38px;
+        height: 38px;
+    }
+    .pagiText {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .modal-content {
+        height: unset !important;
+        padding: 10px 33px 33px;
+    }
+    .modal-title {
+        margin-bottom: 1rem;
+    }
+    .mInfo {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 1rem;
+    }
+	.mGHead{
+        font-size: 24px;
+        line-height: 32px;
+	}
+    .lbl {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .textDiv {
+        margin-top: 1.5rem;
+        margin-bottom: 1.2rem;
+    }
+    .pt1 {
+        margin-left: 0.5rem;
+    }
+	.btnGrid1 button, .btnGrid1 select, .GDiv button {
+		width: 100%;
+	}
+	.mb{margin-top: 1rem;}
+	.lstGrid {
+		margin-bottom: 4.6rem;
+	}
+	a.ModalSBtn {
+		margin-top: 0.2rem;
+	}
+	.nIDiv {
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+    /* End Of Bespoke Modal */
+}
+
+@media(max-width: 541px) {
+    .OnPadViewOnly {
+        display: none;
+    }
+    /* Bespoke Modal */
+    .midLine {
+        margin-top: 0.4rem;
+        margin-left: 0.9rem !important;
+    }
+    .pt2 {
+        margin-left: -0.8rem;
+    }
+    /* End Of Bespoke Modal */
+}
+
+@media (max-width: 416px) {
+    .lib-head {
+        height: 70px;
+        margin-top: -4.5%;
+        width: 88%;
+        font-size: 38px;
+    }
+    .NDs {
+        margin-top: -3.3rem !important;
+    }
+    .crtBtn {
+        width: 90%;
+    }
+    .myText {
+        height: 98px;
+    }
+    .myForm,
+    .collB {
+        height: 38px;
+    }
+    /* Bespoke Modal */
+    .modal-title {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .modal-content {
+        height: unset !important;
+        padding: 10px 20px 33px;
+    }
+    /* End Of Bespoke Modal */
+}
+
+@media (max-width: 376px) {}
+
+@media (max-width: 361px) {}
+
+@media (max-width: 321px) {
+    .lib-head {
+        height: 91px;
+    }
+    /* Bespoke Modal */
+    img.midLine {
+        margin-left: 0.25rem;
+    }
+    /* End Of Bespoke Modal */
+}

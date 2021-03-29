@@ -1,0 +1,993 @@
+button:focus {
+    outline: none;
+}
+
+.s-content {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.MarTp {
+    margin-top: -3rem;
+}
+
+.lib-head {
+    font-size: 96px;
+    font-family: 'Montserrat', sans-serif !important;
+    height: 104px;
+    text-transform: uppercase;
+}
+
+.DeskViewNone,
+.DeskViewNone1,
+.NDs {
+    display: none;
+}
+
+.SingArtCross {
+    font-size: 4rem;
+    margin-left: 1.5rem;
+    position: absolute;
+    margin-top: -8.6rem;
+}
+
+.SingArtDiv {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.SingArtImg {
+    border-radius: 6px;
+}
+
+.SingArtHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+    display: inline-block;
+}
+
+.DisOnlyPad,
+.IpadCross {
+    position: relative;
+}
+
+.OnPadViewOnly,
+.DisOnlyPad,.MobileDiv {
+    display: none;
+}
+
+.sWriter {
+    width: 141px;
+    height: 28px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.pagiGrid {
+    display: grid;
+    grid-template-rows: repeat(1, 95px);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-auto-rows: 95px;
+    grid-column-gap: 21.5px !important;
+    grid-row-gap: 30px !important;
+    margin-left: 16.5rem;
+    place-items: center;
+    position: relative;
+    top: -77px;
+}
+
+.midLine {
+    margin-top: -2.8rem;
+    margin-left: 0rem;
+}
+
+.pagi:hover {
+    background: #D23636;
+    border-color: #D23636;
+    color: #fff;
+}
+
+.md1,
+.md2,
+.md3,
+.tick1,
+.tick2,
+.tick3,
+.tick4,
+.MbBoxDiv {
+    display: none;
+}
+
+.MbBoXBtn {
+    width: 50%;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pagi {
+    width: 65px;
+    height: 65px;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.pagiText {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.wid {
+    width: 110%;
+    margin-top: -1.15rem;
+}
+
+.Box {
+    width: 350px;
+    height: 600px;
+    left: 1046px;
+    top: 550px;
+    border: 1.5px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 6px;
+    float: right;
+}
+
+.BoxHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+}
+
+.BoxSubHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 1.2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0px;
+}
+
+.BoxSubHead1 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 1.2rem;
+    margin-top: 1.9rem;
+	margin-bottom:0px;
+}
+
+.BoxSubHead2 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-left: 1.2rem;
+    margin-top: 1.9rem;
+	margin-bottom:0px;
+}
+
+.bSubHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-left: 1.2rem;
+}
+
+.BoxBtn {
+    width: 160px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+	margin-left:1.2rem;
+	margin-top:8rem;
+}
+
+.LHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.SBtn3,
+.SBtn4,
+.SBtn5,
+.SBtn6,
+.SBtn7,
+.SBtn8{
+    width: 307px;
+    height: 64px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.SBtn4,.SBtn5,.SBtn7,.SBtn8 {
+    border: 1.5px solid rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+}
+.SBtn5,.SBtn6,.SBtn7,.SBtn8 {margin-top:1.8rem;}
+
+.SBtn4,.SBtn6,.SBtn8 {
+    float: right;
+    margin-right: -3.2rem;
+}
+
+.SBtn3,.SBtn6,.SBtn7 {
+    background: #D23636;
+    border: 2px solid #D23636;
+    color: #FFFFFF;
+}
+
+.refDiv {
+    float: right;
+    margin-top: 1rem;
+    margin-right: -4rem;
+}
+
+.ResText {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 0.3rem;
+}
+
+.bckDiv {
+    float: right;
+    margin-top: 1.6rem;
+    margin-right: -3.2rem;
+}
+
+.less {
+    margin-top: -2px;
+}
+
+.bck {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 0.3rem;
+}
+
+.BotBox{
+	width: 714px;
+	height: 125px;
+	background: #F3F3F3;
+	border-radius: 8px;
+	position:absolute;
+	bottom:0;
+}
+
+.BotPara{
+	width: 290px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin-left:0.3rem;
+	margin-top:3rem;
+}
+
+.Botbtn1,.Botbtn2{
+	width: 141.38px;
+	height: 40px;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: rgba(0, 0, 0, 0.8);
+	margin-top:2.5rem;
+}
+
+.Botbtn1,.Botbtn2{
+	margin-left:0.5rem;
+}
+
+@media (max-width: 2000px) {
+    .SingArtDiv {
+        max-width: 1175px !important;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8 {
+        width: 348px;
+    }
+    .pagiGrid {
+        margin-left: 17.5rem;
+    }
+	.BotPara{margin-left:0.7rem;}
+	
+}
+
+@media (max-width: 1600px) {
+    .SingArtDiv {
+        max-width: 1175px !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .s-content {
+        flex: 0 0 77%;
+        padding-left: 0px;
+    }
+	
+    .pagiGrid {
+        margin-left: 16.5rem;
+    }
+    .SBtn4,.SBtn6,.SBtn8 {
+        margin-right: -5.4rem;
+    }
+    .bckDiv {
+        margin-right: -5.2rem;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8 {
+        width: 340px;
+    }
+    .wid {
+        width: 113.5%;
+    }
+    .refDiv {
+        margin-right: -5rem;
+    }
+	.Botbtn1,.Botbtn2{
+		width: 141.38px;
+		margin-left: 1rem;
+	}
+	
+}
+
+@media (max-width: 1366px) {
+    .SingArtDiv {
+        max-width: 1140px !important;
+    }
+    .SingArtDiv2 {
+        margin-left: 1.5rem;
+        margin-right: -1.5rem;
+    }
+    .SingArtDiv {
+        margin-right: 0rem;
+    }
+    .pagiGrid {
+        display: grid;
+        grid-template-rows: repeat(1, 95px);
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-auto-rows: 95px;
+        grid-column-gap: 8px !important;
+        grid-row-gap: 30px !important;
+        margin-left: 17rem;
+    }
+    img.midLine {
+        width: 100%;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8 {
+        width: 307px;
+    }
+    .SBtn4,.SBtn6,.SBtn8 {
+        margin-right: -3.2rem;
+    }
+    .bckDiv {
+        margin-right: -3.2rem;
+    }
+    .wid {
+        width: 110%;
+    }
+    .refDiv {
+        margin-right: -4rem;
+    }
+	.BotBox{
+		width: 637px;
+	}
+	.Botbtn1,.Botbtn2{
+		width: 130px;
+		margin-left:0.5rem;
+	}
+	.BotPara{margin-left:0.3rem;}
+	
+}
+
+@media (max-width: 1280px) {
+    .s-content {
+        padding-left: 8px;
+    }
+    .lib-head {
+        height: 60px;
+    }
+    .SingArtCross {
+        margin-left: 0.5rem !important;
+    }
+    .SingArtDiv2 {
+        margin-left: 2.5rem;
+        margin-right: -2.5rem;
+    }
+    .SingArtDiv1 {
+        margin-top: 5.5rem;
+    }
+    .SingArtDiv {
+        margin-right: -0.5rem;
+    }
+    .pagiGrid {
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        margin-left: 17rem;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8 {
+        width: 280px;
+    }
+    .SBtn4,
+    .SBtn6,
+    .SBtn8,
+    .bckDiv {
+        margin-right: -2rem;
+    }
+    .wid {
+        width: 106%;
+    }
+    .refDiv {
+        margin-right: -2rem;
+    }
+	.BotBox {
+		width: 582px;
+	}
+	.Botbtn1, .Botbtn2 {
+		width: 118px;
+	}
+	.BotPara {
+		width: 254px;
+	}
+}
+
+@media (max-width: 1200px) {
+    .lib-head {
+        height: 40px;
+        font-size: 75px;
+    }
+    .SingArtCross {
+        margin-left: 0.5rem !important;
+    }
+    .SingArtDiv2 {
+        margin-left: 4rem;
+        margin-right: -4rem;
+    }
+    .pagiGrid {
+        grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+        margin-left: 17.8rem;
+    }
+    .Box {
+        width: 305px;
+    }
+    .BoxBtn {
+        right: 140px;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8 {
+        width: 250px;
+    }
+    .SBtn4,
+    .SBtn6,
+    .SBtn8,
+    .bckDiv {
+        margin-right: -1.9rem;
+    }
+    .refDiv {
+        margin-right: -0.3rem;
+    }
+	.BotBox {
+		width: 522px;
+	}
+	.Botbtn1, .Botbtn2 {
+		width: 104px;
+	}
+}
+
+@media (max-width: 1024px) {
+    .s-content {
+        flex: unset !important;
+    }
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .lib-head {
+        height: 170px;
+        font-size: 65px;
+    }
+    .SingArtCross {
+        font-size: 4rem;
+        margin-left: 1.5rem;
+        margin-top: -10.6rem;
+        color: #000;
+    }
+    .SingArtDiv2 {
+        max-width: 100%;
+        margin-left: -4rem;
+    }
+    .SingArtDiv1 {
+        margin-top: 0.8rem;
+    }
+    .IpadViewNone {
+        display: none;
+    }
+    .IpadView {
+        display: block;
+    }
+    .IpadGrid {
+        display: grid !important;
+        grid-template-rows: repeat(1, 250px);
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-auto-rows: 250px;
+        grid-column-gap: 0px !important;
+        grid-row-gap: 0px !important;
+    }
+    .pagi {
+        width: 55px;
+        height: 55px;
+    }
+    .pagiText {
+        font-size: 14px;
+    }
+    .SingArtHead {
+        display: inline-block;
+        width: 100%;
+        font-size: 29.8px;
+    }
+    span.SingArtHead {
+        width: 90%;
+    }
+    .DisOnlyPad {
+        display: unset;
+    }
+    .IpadCross {
+        display: none;
+    }
+    .pagiGrid {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-column-gap: 0px !important;
+        margin-left: 19rem;
+    }
+    img.midLine {
+        width: 65%;
+        margin-left: 0.6rem;
+    }
+    .DeskViewNone {
+        display: block;
+    }
+    .DeskViewNone1 {
+        display: inline-block;
+    }
+    .IpadProBlock {
+        display: none;
+    }
+    .refDiv {
+        margin-right: -3rem;
+        margin-top: 0px;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8 {
+        width: 195px;
+        font-size: 16px;
+    }
+    .SBtn4,
+    .SBtn6,
+    .SBtn8,
+    .bckDiv {
+        margin-right: -1.7rem;
+    }
+    .BoxBtn {
+        right: 66px;
+    }
+    .Box {
+        width: 236px;
+    }
+    .BoxHead {
+        font-size: 28px;
+    }
+	.BotBox {
+		width: 437px;
+		height: 150px;
+	}
+	.BotPara {
+		width: 198px;
+	}
+	.Botbtn1, .Botbtn2 {
+		width: 83px;
+		margin-top: 3.2rem;
+	}
+}
+
+@media (max-width: 992px) and (min-width:858px) {
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .pagiGrid {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        grid-column-gap: 0px !important;
+        margin-left: 18rem;
+    }
+    img.midLine {
+        width: 65%;
+        margin-left: 0.6rem;
+    }
+}
+
+@media (max-width: 969px) and (min-width:858px) {
+    .s-content {
+        flex: unset !important;
+    }
+    .refDiv {
+        margin-right: -3rem;
+        margin-top: 0px;
+    }
+    .SBtn3,
+    .SBtn4 {
+        width: 195px;
+        font-size: 16px;
+    }
+    .SBtn4,
+    .bckDiv {
+        margin-right: -1.7rem;
+    }
+    .BoxBtn {
+        right: 66px;
+    }
+    .Box {
+        width: 230px;
+    }
+	.BotBox {
+		width: 409px;
+	}
+	.Botbtn1, .Botbtn2 {
+		width: 76px;
+	}
+}
+
+@media (max-width: 857px) and (min-width:769px) {
+    .col-lg-9.s-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    .s-content {
+        padding-left: 15px;
+    }
+    .col-lg-9.s-content {
+        width: unset;
+    }
+    .lib-head {
+        height: 35px;
+        font-size: 57.4px;
+    }
+    .SingArtCross {
+        margin-top: -8.2rem;
+    }
+    .SingArtDiv {
+        margin-right: 0rem;
+        margin-top: 4rem;
+    }
+    .ex-space {
+        display: none;
+    }
+    .d-none {
+        display: block !important;
+    }
+    .OnPadViewOnly {
+        display: block;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8 {
+        width: 213px;
+        font-size: 16px;
+    }
+    .SingArtDiv2 {
+        margin-left: -4.5rem;
+    }
+	.BotBox {
+		width: 450px;
+	}
+	.Box {
+		width: 250px;
+	}
+	.BoxBtn {
+		right: 80px;
+	}
+}
+
+@media (max-width: 767px) {
+    .lib-head {
+        height: 80px;
+        font-size: 45px;
+        margin-top: -4.5%;
+        display: inline-block;
+        width: 91%;
+    }
+    .LHead {
+        font-size: 28px;
+        line-height: 36px;
+		margin-bottom:0.3rem;
+    }
+    .NDs,
+    .MbBoxDiv {
+        display: unset;
+    }
+    .SingArtCross {
+        margin-left: 0.5rem !important;
+        margin-right: 0rem;
+        margin-top: -2.6rem;
+        font-size: 3rem;
+    }
+    .SingArtDiv1 {
+        margin-top: 1.2rem;
+    }
+    .d-none1,
+    .IpadView {
+        display: none !important;
+    }
+    .SingArtImg {
+        width: 320px;
+    }
+    .SingArtHead {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    p.sWriter {
+        margin-top: 0.8rem;
+    }
+    .pagiGrid {
+        position: unset;
+        margin-left: -5px;
+        place-items: center;
+    }
+    .pagi {
+        width: 38px;
+        height: 38px;
+    }
+    .pagiText {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .NotViewMb {
+        display: none;
+    }
+    .IpadProBlock {
+        display: block;
+    }
+    .bckDiv,
+    .Box {
+        display: none;
+    }
+    .wid {
+        width: 100%;
+		margin-top: 2rem;
+		margin-bottom: 1rem;
+    }
+	.wid1 {
+        width: 100%;
+		margin-top: 0rem;
+		margin-bottom: 1.5rem;
+    }
+    .refDiv {
+        margin-right: 1rem;
+        margin-top: -2.7rem;
+    }
+    .SBtn4,.SBtn6,.SBtn8 {
+        float: unset;
+        margin-top: 1rem;
+    }
+    .SBtn8 {
+        margin-bottom: 2.2rem;
+    }
+	.row.BotBox {
+		display: none;
+	}
+	/* Para Button Modal */
+	.Botbtn1, .Botbtn2 {
+		width: 46%;
+		margin-top: 0.5rem;
+		margin-bottom:1rem;
+	}
+	.BotPara {
+		width: 100%;
+		text-align: center;
+	}
+	/* end of Para Button Modal */
+	
+	
+}
+
+@media(max-width: 541px) {
+    .OnPadViewOnly {
+        display: block;
+    }
+}
+
+@media(max-width: 541px) and (min-width:420px) {
+    .SingArtImgDiv {
+        text-align: center;
+    }
+    span.SingArtHead {
+        width: 87%;
+        margin-top: 1rem;
+    }
+    .pagiGrid {
+        grid-column-gap: 0px !important;
+        margin-top: 2rem;
+    }
+    .d-none1 {
+        display: none !important;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8  {
+        width: 253px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 416px) {
+    .lib-head {
+        height: 40px;
+        margin-top: -4.5%;
+        width: 88%;
+        font-size: 38px;
+    }
+	.LHead {
+		margin-top:0.5rem;
+		margin-bottom:1.1rem;
+	}
+	.SBtn8 {
+		margin-bottom: 1.7rem;
+	}
+    .SingArtCross {
+        margin-top: -2.4rem;
+    }
+    .SingArtImg {
+        width: 383px;
+    }
+    span.SingArtHead {
+        width: 88%;
+        margin-top: 0.8rem;
+    }
+    .pagiGrid {
+        grid-column-gap: 0px !important;
+        margin-top: 1.5rem;
+    }
+    .SBtn3,
+	.SBtn4,
+	.SBtn5,
+	.SBtn6,
+	.SBtn7,
+	.SBtn8 {
+        width: 100%
+    }
+	.DeskDiv{display:none;}
+	.MobileDiv{display:unset;}
+}
+
+@media (max-width: 376px) {
+    .SingArtImg {
+        width: 347px;
+    }
+    span.SingArtHead {
+        width: 86%;
+    }
+}
+
+@media (max-width: 361px) {
+    .SingArtImg {
+        width: 330px;
+    }
+    .refDiv {
+        margin-right: 1.5rem;
+        margin-top: -2.7rem;
+    }
+}
+
+@media (max-width: 321px) {
+    .lib-head {
+        height: 30px;
+		font-size: 30px;
+    }
+    .SingArtImg {
+        width: 291px;
+    }
+    span.SingArtHead {
+        width: 84%;
+    }
+    .refDiv {
+        margin-right: 0.5rem;
+    }
+    .pagiGrid {
+        grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    }
+    img.midLine {
+        margin-left: 0.25rem;
+    }
+}

@@ -1,0 +1,1220 @@
+::selection {
+    background: #D23636;
+    color: #fff;
+}
+
+.navbar-toggler.collapsed {
+    pointer-events: none !important;
+    user-select: none !important;
+}
+
+
+/* BANNER AREA */
+
+.banner-image {
+    height: 730px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.banner-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.bannerHead {
+    width: 1010px;
+    height: 160px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.BannerBtn {
+    width: 196px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1.5px solid #FFFFFF;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.BannerBtn1 {
+    background: transparent;
+    color: #fff;
+}
+
+.BannerBtn2 {
+    background: #FFFFFF;
+    color: #000;
+}
+
+
+/* END BANNER AREA */
+
+.Mob {
+    display: none;
+}
+
+
+/* TOP NAVIGATION BAR */
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.MbIcon {
+    display: none;
+    position: absolute;
+    right: 14px;
+}
+
+.NavDiv {
+    padding-top: 0.5rem;
+}
+
+.navbar-brand {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+    ;
+}
+
+.nav-link {
+    height: 26px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-right: 1.5rem !important;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.SignUpBtn {
+    width: 120px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    text-align: center;
+    margin-right: 1.2rem;
+    margin-left: 0.7rem;
+}
+
+.SignUpBtn a {
+    color: #000 !important;
+}
+
+
+/* END OF TOP NAVIGATION */
+
+
+/* TEXT-IMG GRID SECTION */
+
+.SecTop {
+    margin-top: 7rem;
+}
+
+.SubSecTop {
+    margin-top: 5.2rem
+}
+
+.SubSecTop1 {
+    margin-top: 5.2rem
+}
+
+.ImgGrigHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.ImgGrigP {
+    width: 445px;
+    height: 104px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 1.5rem;
+}
+
+.ImgGrigBtn {
+    width: 255px;
+    height: 48px;
+    background: #D23636;
+    border-radius: 8px;
+    border: 1px solid #D23636;
+    color: #fff;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.GImg {
+    border-radius: 6px;
+    position: relative;
+}
+
+.GSubImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+}
+
+.DeskPad {
+    padding-left: 10px !important;
+}
+
+
+/* END OF TEXT-IMG GRID SECTION */
+
+
+/* PLAYER SECTION */
+
+.secBod {
+    height: 351.87px;
+    background: #FFFFFF;
+    border: 3px solid #F3F3F3;
+    /*border: 3px solid red;*/
+    box-sizing: border-box;
+    border-radius: 11.2727px;
+}
+
+.playImg {
+    border-radius: 8.45455px;
+    margin-top: 1rem;
+}
+
+.playIcon {
+    margin-left: 5rem;
+}
+
+.playP {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.3636px;
+    line-height: 37px;
+    color: #000000;
+    margin-top: 0.9rem;
+}
+
+.playSubP {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.7273px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.playBtn {
+    width: 276.94px;
+    height: 78.19px;
+    box-sizing: border-box;
+    background: #000000;
+    border-color: #000;
+    border-radius: 11.2727px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25.3636px;
+    line-height: 37px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0.9rem;
+}
+
+.playInfoDiv {
+    margin-top: 1.65rem;
+    margin-left: 2.5rem;
+}
+
+.infoWid {
+    width: 193.85px;
+    height: 32.58px;
+}
+
+.playInfo {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.9091px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.lftMar0 {
+    margin-left: 6rem;
+    width: 224.81px;
+    height: 32.58px;
+}
+
+.lftMar1 {
+    margin-left: 14.5rem;
+    width: 84.71px;
+    height: 32.58px;
+}
+
+.playBtnDiv {
+    margin-top: 5.12rem;
+    margin-left: 2.5rem;
+}
+
+.btPad {
+    width: 105.89px;
+    height: 78.19px;
+    border: 2.81818px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 11.2727px;
+}
+
+.playZag {
+    margin-top: 0.55rem;
+    margin-left: 2.5rem;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+/* END OF PLAYER SECTION */
+
+
+/* RIGHT MUSIC SECTION */
+
+.MHead {
+    height: 44px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+}
+
+.MSubHead {
+    height: 32px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 1.6rem;
+}
+
+.MPara {
+    width: 255px;
+    height: 104px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+.divLftMar {
+    margin-left: 3rem;
+}
+
+.divLftMar1 {
+    margin-left: 6.2rem;
+}
+
+.DivH {
+    height: 51px
+}
+
+
+/* END OF RIGHT MUSIC SECTION */
+
+
+/* LICENSING SECTION */
+
+.LHead {
+    height: 80px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.LPara {
+    width: 445px;
+    height: 130px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+.LMore {
+    width: 135px;
+    height: 26px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #D23636;
+}
+
+.LMarLft {
+    margin-left: 6.5rem;
+}
+
+
+/* END OF LICENSING SECTION */
+
+
+/* PLAYLIST SECTION */
+
+.PHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.PPara {
+    width: 538px;
+    height: 52px;
+    left: 165px;
+    top: 3085px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.padd {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+}
+
+.carousel-caption {
+    bottom: 0px !important;
+    padding-bottom: 0px !important;
+    right: 35% !important;
+    left: 0% !important;
+}
+
+.carousel-caption h3 {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    color: #FFFFFF !important;
+}
+
+.PBtn {
+    margin-top: 2rem;
+}
+
+.GArrow {
+    width: 65px;
+    height: 48px;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 8px;
+    float: right;
+    margin-top: 2rem;
+    ;
+}
+
+.img-wid {
+    border-radius: 6px;
+}
+
+
+/* END OF PLAYLIST SECTION */
+
+
+/* ARTIST SLIDER SECTION */
+
+.owl-carousel .owl-item img {
+    display: inline-block !important;
+    width: unset !important;
+}
+
+.item {
+    text-align: center;
+    width: 1422px;
+    padding: 0 540px;
+}
+
+button.owl-next {
+    padding: 10px!important;
+    position: absolute;
+    right: -2%;
+    top: 30%;
+    font-size: 50px !important;
+    display: none !important;
+}
+
+button.owl-prev {
+    padding: 10px!important;
+    position: absolute;
+    left: -2%;
+    top: 30%;
+    font-size: 50px !important;
+    display: none !important;
+}
+
+button.owl-next:hover,
+button.owl-prev:hover {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #F3F3F3 !important;
+}
+
+.SlideHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    text-align: center;
+}
+
+.SlidePara {
+    height: 82px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    padding: 0 15px;
+}
+
+
+/*.SWid{
+	width: 350px;
+	height: 385px;
+	left: 165px;
+	top: 3736px;
+	background: #FFFFFF;
+	border-radius: 8px;
+}*/
+
+
+/* END OF SLIDER ARTIST SECTION */
+
+
+/* ABOUT US SECTION */
+
+.ASubHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.LFMR {
+    padding-left: 0px !important;
+}
+
+.ASubTopMar {
+    margin-top: -1.5rem;
+    margin-bottom: -2rem;
+}
+
+.LFMR,
+.LFMR1 {
+    max-width: 50% !important;
+}
+
+
+/* END OF ABOUT US SECTION */
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 2000px) {
+    .banner-text {
+        top: 38%;
+    }
+    .item {
+        text-align: center;
+        width: 1916px;
+        padding: 0 770px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .item {
+        text-align: center;
+        width: 1698px;
+        padding: 0 675px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .banner-text {
+        top: 38%;
+    }
+    .item {
+        text-align: center;
+        width: 740px;
+        padding: 0 189px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .banner-text {
+        top: 50%;
+    }
+    .item {
+        text-align: center;
+        width: 691px;
+        padding: 0 173px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .banner-text {
+        top: 40%;
+    }
+    .item {
+        text-align: center;
+        width: 650px;
+        padding: 0 176px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .GImg {
+        width: 220px;
+    }
+    .playLine {
+        width: 920px;
+    }
+    .playIcon {
+        margin-left: 2.5rem;
+    }
+    .lftMar1 {
+        margin-left: 6.5rem;
+    }
+    .btPad {
+        width: 80px;
+    }
+    .playBtn {
+        width: 250px;
+    }
+    .divLftMar {
+        margin-left: 0rem;
+    }
+    .divLftMar1 {
+        margin-left: 0rem;
+    }
+    .img-wid {
+        width: 220px;
+    }
+    .ImgWid {
+        width: 500px;
+    }
+    .LMarLft {
+        margin-left: 4rem;
+    }
+    .LPara {
+        width: 390px;
+    }
+    .banner-text {
+        top: 38%;
+    }
+    .item {
+        text-align: center;
+        width: 1146px;
+        padding: 0 440px;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 992px) {
+    .item {
+        text-align: center;
+        width: 1020px;
+        padding: 0 380px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .playLine {
+        width: 930px;
+    }
+    .bannerHead {
+        width: 630px;
+        font-size: 50px;
+    }
+    .playZag {
+        width: 100%;
+    }
+    .banner-text {
+        top: 28%;
+    }
+}
+
+@media (max-width: 969px) and (min-width: 900px) {
+    .item {
+        text-align: center;
+        width: 968px;
+        padding: 0 280px;
+    }
+    .MbIcon {
+        display: inline-block;
+    }
+    .playLine {
+        width: 100%;
+    }
+    .ASubTopMar {
+        margin-top: -0.5rem;
+        margin-bottom: -2.2rem;
+    }
+    .MrTp {
+        padding-left: 30px;
+    }
+    .img-wid,
+    .GImg {
+        width: 330px;
+    }
+    .TpMr {
+        margin-top: 1.8rem;
+    }
+    .LMarLft {
+        margin-left: 0rem;
+    }
+    .LPara {
+        width: 100%;
+    }
+    .ImgWid {
+        width: 100%;
+    }
+    .playIcon {
+        width: 40px;
+        margin-left: 1.5rem;
+    }
+    .playImg {
+        width: 80px;
+    }
+    .playBtn {
+        width: 200px;
+        height: 60px;
+    }
+    .playP {
+        font-size: 18px;
+    }
+    .lftMar0,
+    .lftMar1 {
+        margin-left: 0.7rem;
+    }
+    .btPad {
+        width: 53px;
+        height: 60px;
+    }
+    .secBod {
+        height: 310px;
+    }
+    .playZag {
+        margin-top: 0.9rem;
+        margin-left: 2.5rem;
+    }
+    .MPara {
+        width: 100%;
+    }
+    .ImgGrigP {
+        width: 100%;
+        height: 60px;
+    }
+    .banner-text {
+        top: 34%;
+    }
+}
+
+@media (max-width: 769px) {
+    .item {
+        text-align: center;
+        width: 760px;
+        padding: 0 200px;
+    }
+    .LFMR,
+    .LFMR1 {
+        max-width: 100% !important;
+    }
+    .MbIcon {
+        display: inline-block;
+    }
+    .playLine {
+        width: 100%;
+    }
+    .ImgWid {
+        width: 100%;
+        height: 100%;
+    }
+    .banner-text {
+        top: 38%;
+    }
+    .TabCenter {
+        text-align: center;
+    }
+    .btPad {
+        width: 50px;
+        height: 45px;
+    }
+    .lftMar1,
+    .lftMar0 {
+        margin-left: 1.3rem;
+    }
+    .playIcon {
+        width: 28px;
+    }
+    .playImg {
+        height: 65px;
+    }
+    .playBtn {
+        width: 150px;
+        height: 48px;
+        font-size: 20px;
+        margin-top: 0.7rem;
+    }
+    .playP {
+        font-size: 18px;
+        margin-top: 1.5rem;
+    }
+    .TabTop {
+        margin-top: 0rem;
+    }
+    .playZag {
+        margin-top: 0.5rem;
+    }
+    .secBod {
+        height: 290px;
+    }
+    .playInfoDiv {
+        margin-top: 1.85rem;
+        margin-left: 2.5rem;
+    }
+    .playInfo {
+        font-size: 15px;
+    }
+    .MPara {
+        width: 100%;
+    }
+    .img-wid,
+    .GImg {
+        width: 100%;
+    }
+    .TpMr {
+        margin-top: 2rem;
+    }
+    .ImgGrigP {
+        width: 670px;
+        height: unset;
+    }
+    .LMarLft {
+        margin-left: 0rem;
+    }
+    .LPara {
+        width: 100%;
+        height: 85px;
+        margin-top: 1.5rem;
+    }
+    .MrTp {
+        margin-top: 3rem;
+        padding-left: 15px;
+    }
+    .LFMR {
+        padding-right: 0px !important;
+    }
+    .SubSecTop1 {
+        margin-top: 3rem;
+    }
+    .ASubHead {
+        margin-top: 2.5rem !important;
+    }
+    h3.mt-2.ASubHead {
+        margin-top: 1.5rem !important;
+    }
+    .MobPad {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-toggler-icon {
+        margin-left: -1rem;
+    }
+    .SlideHead {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .MrTp {
+        padding-left: 0px;
+    }
+    .ImgGrigBtn {
+        width: 100%;
+    }
+    .GArrow {
+        display: none;
+    }
+    .navbar-brand {
+        color: #D23636;
+    }
+    .banner-image {
+        height: 641px;
+    }
+    .bannerHead {
+        width: 320px;
+        height: 126px;
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .BannerBtn {
+        width: 134px;
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ImgGrigP {
+        width: unset;
+        height: unset;
+    }
+    .PPara {
+        width: unset;
+    }
+    .playZag {
+        width: 85%;
+    }
+    .DivPadWid {
+        width: 50%;
+    }
+    .SlideHead,
+    .ASubHead,
+    .carousel-caption h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .SlidePara {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 541px) and (min-width: 421px) {
+    .item {
+        text-align: center;
+        width: 513px;
+        padding: 0 137px;
+    }
+}
+
+@media (max-width: 541px) {
+    .banner-text {
+        top: 46%;
+    }
+    .img-wid,
+    .GImg {
+        width: 100%;
+    }
+    .playIcon {
+        margin-left: 0.5rem;
+        margin-top: 1rem;
+    }
+    .playImg {
+        height: 60px;
+    }
+    .playP,
+    .playSubP,
+    .playInfo {
+        font-size: 12px;
+    }
+    .btPad {
+        width: 44px;
+        height: 40px;
+    }
+    button.btPad.ml-4 {
+        margin-left: 0.5rem !important;
+    }
+    .lftMar1,
+    .lftMar0 {
+        margin-left: 0.3rem;
+    }
+    .TabTop {
+        margin-top: 0rem;
+    }
+    .playZag {
+        margin-top: 1.6rem;
+    }
+    .secBod {
+        height: 240px;
+    }
+    .playP {
+        margin-top: 0.5rem;
+        margin-bottom: -0.1rem;
+    }
+    .playBtn {
+        margin-top: 0rem;
+    }
+    .playInfoDiv {
+        margin-top: 1rem;
+    }
+    .playBtnDiv {
+        margin-top: 3.4rem;
+        margin-left: 2.5rem;
+    }
+    h2.ImgGrigHead.ml-2,
+    p.ImgGrigP.ml-2,
+    p.ImgGrigP.ml-2,
+    button.ImgGrigBtn.ml-2 {
+        margin-left: 0.2rem !important;
+    }
+    .LPara {
+        width: 100%;
+        height: 108px;
+        margin-top: 1.5rem;
+    }
+    .SecTop {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 421px) {
+    .item {
+        text-align: center;
+        width: 417px;
+        padding: 0 36px;
+    }
+    .SecTop {
+        margin-top: 4rem;
+    }
+    .playIcon {
+        margin-left: 0.8rem;
+        margin-top: 1rem;
+        width: 15px;
+    }
+    .playImg {
+        height: 30px;
+    }
+    .playP,
+    .playSubP,
+    .playInfo {
+        font-size: 7.6px;
+    }
+    .playBtn {
+        width: 81px;
+        height: 30px;
+        font-size: 10px;
+        line-height: unset;
+    }
+    .Mob {
+        display: block;
+    }
+    .Desk {
+        display: none;
+    }
+    .playBtnDiv {
+        margin-top: 1.3rem;
+        margin-left: 0.3rem;
+    }
+    .playBtn {
+        border-radius: 2.92725px;
+    }
+    .btPad {
+        width: 30px;
+        height: 30px;
+        border-radius: 2.92725px;
+    }
+    .playZag,
+    .playInfoDiv {
+        margin-left: 0.3rem;
+    }
+    .playZag {
+        margin-top: 1rem;
+    }
+    .playP {
+        margin-top: 0rem;
+        margin-bottom: -0.9rem;
+    }
+    .playInfoDiv {
+        margin-top: 0.2rem;
+    }
+    .playSubP {
+        margin-bottom: 0px !important;
+    }
+    .secBod {
+        height: 153px;
+    }
+    .col-lg-6.d-block.d-lg-none.mt-5,
+    .SubSecTop1,
+    .MrTp {
+        margin-top: 1.5rem !important;
+    }
+    .ImgGrigHead,
+    .MHead,
+    .LHead,
+    .PHead {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .ImgGrigP,
+    .MPara,
+    .LPara,
+    .PPara {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .MSubHead {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .ImgGrigP,
+    .LPara,
+    .PPara {
+        margin-top: 1rem;
+    }
+    .DivH {
+        height: 31px
+    }
+    .MPara {
+        padding: 0 54px;
+    }
+    .LHead {
+        height: unset;
+    }
+    .LPara {
+        height: unset;
+    }
+    .LH {
+        line-height: 86px;
+    }
+}
+
+@media (max-width: 376px) {
+    .item {
+        text-align: center;
+        width: 375px;
+        padding: 0 16px;
+    }
+    .banner-text {
+        top: 50%;
+    }
+}
+
+@media (max-width: 361px) {
+    button.btPad.ml-4 {
+        margin-left: 0rem !important;
+    }
+    .playIcon {
+        margin-left: 0.5rem;
+    }
+    .playP,
+    .playSubP,
+    .playInfo {
+        font-size: 7px;
+    }
+    .playP {
+        margin-top: -0.1rem;
+    }
+}
+
+@media (max-width: 321px) {
+    .playIcon {
+        width: 10px;
+    }
+    .playImg {
+        height: 25px;
+    }
+    .playP,
+    .playSubP,
+    .playInfo {
+        font-size: 5.9px;
+    }
+    .playBtn {
+        width: 72px;
+    }
+    .btPad {
+        width: 28px;
+        height: 28px;
+    }
+    .MPara {
+        height: 125px;
+    }
+    .item {
+        text-align: center;
+        width: 319px;
+        padding: 0 0px;
+    }
+    .carousel-caption {
+        right: 16% !important;
+    }
+}
+
+
+/* END OF MEDIA QUERY */

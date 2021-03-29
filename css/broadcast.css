@@ -1,0 +1,501 @@
+.lib-head {
+    font-size: 96px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal;
+    line-height: 104px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.s-content {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.rowTop {
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+.rowTop1 {
+    margin-top: 2rem;
+}
+
+.rowTop1 p {
+    margin-bottom: 0;
+}
+
+.rowHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.colHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.colSubHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.broadP {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.vBtn0 {
+    width: 160px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sBtn0 {
+    width: 160px;
+    height: 40px;
+    background: #000000;
+    border-color: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    float: right;
+    margin-right: -0.6rem;
+}
+
+.tpSpc {
+    margin-top: 2rem;
+}
+
+.dTop1 {
+    margin-top: 0.6rem;
+}
+
+.dTop2 {
+    margin-top: 2.5rem;
+}
+
+.dTop3 {
+    margin-top: 2.5rem;
+}
+
+.btnGp1 {
+    margin-top: 2rem;
+}
+
+.btnGp2 {
+    margin-top: 2rem;
+}
+
+.btnImgWid {
+    width: 101%;
+    margin-left: 0px;
+    margin-top: 0rem !important;
+}
+
+.row.down-arrow {
+    margin-top: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+.song-icon {
+    visibility: hidden;
+}
+
+.a-sort {
+    margin-left: 30px;
+}
+
+.icon-text {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    align-items: center;
+    color: #000000;
+    margin-right: 8%;
+}
+
+.icon-text1 {
+    margin-left: 15%;
+}
+
+.icon-text11 {
+    margin-left: 1%;
+}
+
+.sort-div {
+    display: none;
+    width: 180px;
+    margin-left: -30px;
+    margin-top: 5px;
+    box-shadow: 4px 5px 5px -1px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    position: absolute;
+    background: #fff;
+}
+
+.sort-div img {
+    width: 179.9px;
+}
+
+.sort-div a {
+    color: #000;
+}
+
+.OnPadViewOnly,
+.notD,
+.NDs {
+    display: none;
+}
+
+@media (max-width: 2000px) {
+    .a-sort {
+        margin-left: 60px;
+    }
+    .row.down-arrow {
+        margin-top: 3.2rem;
+    }
+    .btnImgWid {
+        width: 99%;
+        margin-left: 0px
+    }
+    .sBtn0 {
+        margin-right: 0.3rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .s-content {
+        flex: 0 0 77%;
+        padding-left: 0px;
+    }
+    .btnImgWid {
+        width: 101%;
+    }
+    .row.down-arrow {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .a-sort {
+        margin-left: 52px;
+    }
+    .sBtn0 {
+        margin-right: -0.6rem;
+    }
+}
+
+@media (max-width: 1366px) {
+    .a-sort {
+        margin-left: 42px;
+    }
+    .row.down-arrow {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .btnImgWid {
+        width: 101%;
+        margin-left: 0px;
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .s-content {
+        padding-left: 8px;
+    }
+    .lib-head {
+        height: 60px;
+    }
+    .icon-text {
+        margin-right: 3%;
+    }
+    .sBtn0,
+    .vBtn0 {
+        width: 150px;
+    }
+    .row.down-arrow {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .lib-head {
+        height: 60px;
+    }
+    .a-sort {
+        margin-left: 6px;
+    }
+    .btnImgWid {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .sBtn0,
+    .vBtn0 {
+        width: 160px;
+    }
+    .sBtn0 {
+        margin-right: 0rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lib-head {
+        height: 105px;
+    }
+    .s-content {
+        flex: unset !important;
+    }
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .a-sort {
+        margin-left: 4px;
+    }
+    .icon-text1 {
+        margin-left: 12%;
+    }
+    .sBtn0,
+    .vBtn0 {
+        width: 130px;
+    }
+    .btnGp0 {
+        margin-top: 1rem;
+    }
+    .btnGp1,
+    .btnGp2 {
+        margin-top: 2.6rem;
+    }
+}
+
+@media (max-width: 992px) and (min-width:858px) {
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .a-sort {
+        margin-left: 42px;
+    }
+}
+
+@media (max-width: 969px) and (min-width:858px) {
+    .s-content {
+        flex: unset !important;
+    }
+}
+
+@media (max-width: 969px) {
+    .sBtn0 {
+        float: unset;
+    }
+    .notD {
+        display: unset;
+    }
+    .btnImgWid.notD {
+        width: 95%;
+        margin-left: 1rem;
+        margin-top: 1.85rem !important;
+    }
+    .sBtn0,
+    .vBtn0 {
+        width: 160px;
+    }
+    /*.sBtn0{margin-left:1rem;}*/
+    .notMb {
+        display: none;
+    }
+    .btnGp0,
+    .btnGp1,
+    .btnGp2 {
+        margin-top: 1rem;
+    }
+    .dTop1,
+    .dTop2,
+    .dTop3 {
+        margin-top: 0.45rem;
+    }
+}
+
+@media (max-width: 857px) and (min-width:769px) {
+    .col-lg-9.s-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    .lib-head {
+        height: 110px;
+    }
+    .s-content {
+        padding-left: 15px;
+    }
+    .col-lg-9.s-content {
+        width: 1200px;
+    }
+    .a-sort {
+        margin-left: 58px;
+    }
+    .d-none {
+        display: block !important;
+    }
+    .OnPadViewOnly,
+    .ex-space {
+        display: none;
+    }
+    .form-group {
+        margin-bottom: 0rem;
+    }
+    .navbar {
+        padding: 10px 0px 0px;
+    }
+    .navbar {
+        margin-bottom: 18px;
+    }
+}
+
+@media(max-width: 541px) and (min-width:420px) {
+    .d-none1 {
+        display: none !important;
+    }
+    .my-div1 {
+        width: 75% !important;
+    }
+    .my-div2 {
+        width: 25% !important;
+    }
+    .a-sort {
+        margin-left: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lib-head {
+        height: 10px;
+        font-size: 38px;
+        line-height: 56px;
+        display: inline-block;
+        width: 88%;
+    }
+    .colHead,
+    .broadP,
+    .colSubHead,
+    .sBtn0,
+    .vBtn0 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .NDs,
+    .notD {
+        display: unset;
+    }
+    a.NDs {
+        color: #000;
+        font-size: 45px;
+    }
+    .notD {
+        margin-top: 1.5rem !important;
+    }
+    .my-div1 {
+        width: 59%;
+    }
+    .my-div2 {
+        width: 41%;
+    }
+    .d-none1,
+    .txt1,
+    .rytBod,
+    .rowTop,
+    .mbDNone,
+    .notM {
+        display: none !important;
+    }
+    .rowTop1 {
+        margin-top: 0rem;
+    }
+    .a-sort {
+        display: none;
+    }
+    .row.down-arrow {
+        margin: 0rem;
+    }
+    .btnGp0,
+    .btnGp1,
+    .btnGp2 {
+        margin-top: 0.8rem;
+    }
+    .broadP {
+        margin-top: 0.3rem;
+    }
+}
+
+@media(max-width: 541px) {
+    .OnPadViewOnly {
+        display: none;
+    }
+    .navbar {
+        margin-bottom: 42px;
+    }
+    .btnImgWid {
+        width: 94%;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 416px) {
+    .lib-head {
+        height: 70px;
+        width: 82%;
+        font-size: 38px;
+    }
+    .NDs {
+        margin-top: -3.3rem !important;
+    }
+    .btnImgWid.notD {
+        width: 92%;
+    }
+    .sBtn0,
+    .vBtn0 {
+        width: 47%;
+    }
+    .sBtn0 {
+        float: right;
+    }
+}
+
+@media (max-width: 321px) {
+    .lib-head {
+        height: 60px;
+        width: 79%;
+        margin-top: 1.6rem;
+    }
+    .navbar {
+        margin-bottom: 8px;
+    }
+}

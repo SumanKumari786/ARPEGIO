@@ -1,0 +1,253 @@
+button:focus{
+	outline:none;
+	border-color:#000;
+}
+/* TOP NAVIGATION BAR */
+
+.NavDiv {
+    padding-top: 0.5rem;
+}
+
+.navbar-brand {
+    color: #D23636;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.navbar-brand:hover {
+    color: #D23636;
+}
+
+.cross{
+	margin-right:2.2rem;
+	margin-top: 0.5rem;
+}
+
+/* END OF TOP NAVIGATION */
+
+.SHead{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 96px;
+	line-height: 104px;
+	text-transform: uppercase;
+	color: #000000;
+	text-align:center;
+	margin-top:1.7rem;
+	margin-bottom:3.2rem;
+}
+
+/*.formDiv{
+	display:grid;
+	place-items:center;
+}*/
+.formDiv{
+	position:absolute;
+	left:50%;
+	transform:translate(-50%);
+}
+.inBox:focus{outline:none;}
+
+.inBox::placeholder{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.inBox{
+	width: 540px;
+	height: 52px;
+	border: 1.5px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding-left:2%;
+}
+.sUpBtn{
+	width: 540px;
+	height: 48px;
+	background: #000000;
+	border-color: #000000;
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+
+.cLink,.s3btn{float:right;}
+
+.s2btn{margin-left:1.65rem;}
+
+.socBtn{
+	width: 160px;
+	height: 48px;
+	background: #000000;
+	border-color: #000000;
+	border-radius: 8px;
+}
+
+.chkBoxText{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	color: #000000;
+	margin-left:1.2rem;
+}
+.accText, .logLink{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.logLink{
+	font-weight:bold;
+	margin-left:5px;
+}
+.logLink:hover{
+	font-weight:bold;
+	color: #000000;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.cLink{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.cLink:hover{
+	color: #000000;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.logLine{
+	margin-top:1.8rem;
+	margin-bottom:2rem;
+}
+
+.custom-control{
+	margin-left:1rem;
+}
+   
+.custom-control-label:before{
+	background-color:fff !important;
+	box-shadow:none !important;
+	border: 2px solid #000 !important;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+	background-color:#000;
+	border-color:#000;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+	background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='white' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E");
+}
+
+/* MEDIA QUERY */
+@media (max-width: 1024px){
+	a.navbar-brand {
+		margin-left: 1.5rem;
+	}
+	.cross {
+		margin-top: 1rem;
+	}
+}
+
+@media (max-width: 767px){
+	a.navbar-brand {
+		margin-left: 0rem;
+	}
+	.cross {
+		margin-right: 0rem;
+	}
+	.inBox,.sUpBtn {
+		width: 480px;
+	}
+	.socBtn {
+		width: 145px;
+	}
+	.s2btn {
+		margin-left: 1.15rem;
+	}
+	.SHead {
+		font-size: 75px;
+		line-height: 84px;
+		margin-bottom:0rem;
+	}
+	.cLink{display:none;}
+	
+	.logLine {width:100%;}
+	
+	span.accText {
+		position: absolute;
+		left: 25%;
+	}
+}
+@media (max-width: 416px){
+	.inBox, .sUpBtn {
+		width: 350px;
+	}
+	.cross {
+		margin-top: -0.1rem;
+	}
+	.cross img{
+		width: 22px;
+		height: 22px;
+	}
+	.socBtn {
+		width: 90px;
+	}
+	.s2btn {
+		margin-left: 2.2rem;
+	}
+	.SHead {
+		text-align:left;
+		font-size: 38px;
+		line-height: 46px;
+	}
+	.chkBoxText{margin-left:0rem;}
+	
+	span.accText {
+		position: absolute;
+		left: 15%;
+	}
+}
+
+@media (max-width: 376px){
+	.inBox, .sUpBtn {
+		width: 327px;
+	}
+	.s2btn {
+		margin-left: 1.6rem;
+	}
+}
+
+@media (max-width: 321px){
+	.inBox, .sUpBtn {
+		width: 270px;
+	}
+	.custom-control {
+		margin-left: 0.3rem;
+	}
+	
+	.accText{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.cLink {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.socBtn {
+		width: 70px;
+	}
+	.cross {
+		margin-top: 0rem;
+	}
+}

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>arpegio</title>
+
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	
+
+    <!-- Our Custom CSS -->
+	<link rel="stylesheet" href="css/modalBasics.css">
+	<!--<link rel="stylesheet" href="css/songs.css">-->
+	<link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/bespokeMusic.css">
+   
+</head>
+
+<body>
+    <div class="row s-mainDiv">
+        <div class="col-lg-3 col-md-4 s-nav">
+            <nav id="sidebar" class="main">
+                <div class="sidebar-header">
+                    <h3>arpegio</h3>
+					<span class="sideCross"><img src="images/icons/mbcross.png" /></span>
+                </div>
+
+                <ul class="list-unstyled">
+                    <li><i></i><i></i></li>
+                    <div class="main tabNone">
+
+                        <!-- Desktop search box -->
+                        <div class="form-group has-search">
+                            <img class="form-control-feedback nav-icon" src="images/icons/search.png" style="width: 21px; height: 20px; margin-top:9px;"></img>
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <!-- END Search Box -->
+
+
+                    </div>
+                    <li class="side-link">
+                        <a href="songs.html" class="norm-link">
+                            <img class="nav-icon" src="images/icons/aSong.png"></img>
+                            SONGS
+                        </a>
+                    </li>
+                    <li class="side-link">
+                        <a href="artists.html" class="norm-link">
+                            <img class="nav-icon" src="images/icons/art-icon.png"></img>
+                            ARTISTS
+                        </a>
+                    </li>
+                    <li class="side-link">
+                        <a href="playlist.html" class="norm-link">
+                            <img class="nav-icon" src="images/icons/play2.png"></img>
+                            PLAYLISTS
+                        </a>
+                    </li>
+					<li class="side-link">
+						<a href="myLibrary.html" class="norm-link">
+                            <img class="nav-icon" src="images/icons/lib1.png"></img>
+                            MY LIBRARY
+                        </a>
+                    </li>
+
+                </ul>
+				
+				<!-- Mobile Top Bar -->
+				<div class="mobTop">
+					<div class="border-top"></div>
+					<ul>
+						<li>
+							<a href="#">Hype</a>
+						</li>
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li id="clickMe1">
+							<a href="#">Help</a>
+						</li>
+						
+					</ul>
+					<div class="mobBtn0">
+						<button class="" data-toggle="modal" data-target="#exampleModalCenter">Request Bespoke music</button>
+					</div>
+				</div>
+				<!-- End Mobile Top Bar -->
+
+                <div class="side-nav-div tabNone">
+                    <img class="vector nav-img" src="images/nav-img.png"></img>
+                    <img class="vector nav-icon1" src="images/nav-icon.png"></img>
+                    <img class="hov-img1" src="images/songs/splay.png"></img>
+                    <p class="side-nav-p">Somebody like me</p>
+                    <div class="hov-img1 hov-text-mar">
+                        <span>Happy, Chill , Dramatic</span>
+                        <span class="mar-lft">Electronic, Acid, Energetic</span>
+                        <span class="mar-lft1">3:00/6:00</span>
+                    </div>
+                    <p class="side-nav-p1">John Albert</p>
+                    <button class="btn side-nav-btn">Get License</button>
+                    <div class="hov-img1 hov-btn-mar">
+                        <a class="btn bt-pad"><img class="" src="images/icons/exp-icon1.png"></img>
+                        </a>
+                        <a class="btn bt-pad ml-2"><img class="" src="images/icons/exp-icon2.png"></img>
+                        </a>
+                        <a class="btn bt-pad ml-2"><img class="" src="images/icons/exp-icon3.png"></img>
+                        </a>
+                        <a class="btn bt-pad ml-2"><img class="" src="images/icons/sim-song.png" style="margin-top:-5px"></img>
+                        </a>
+                        <a class="btn bt-pad ml-2"><img class="" src="images/icons/exp-icon5.png"></img>
+                        </a>
+                        <a class="btn bt-pad ml-2"><img class="" src="images/icons/coll1.png" style="margin-top:-5px"></img>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="col-lg-9 s-content">
+
+            <!-- Page Content  -->
+            <div id="content">
+                <span class="sidebar-header-tab"><img class="bar-tab" src="images/icons/bar.png"></img></span>
+                <span class="sidebar-header-tab">arpegio</span>
+
+                <!-- Top NavBar Section -->
+                <nav class="navbar navbar-expand-lg" style="float:right;">
+                    <div>
+                        <div class="navbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="nav-item active tab1">
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModalCenter">Request Bespoke music</a>
+                                </li>
+                                <li class="nav-item nav-a tab1">
+                                    <a class="nav-link" href="#">Hype</a>
+                                </li>
+                                <li class="nav-item nav-a tab1">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item nav-a tab1">
+                                    <a class="nav-link" href="#">Help</a>
+                                </li>
+
+                                <!-- Ipad Search Box -->
+                                <div class="form-group has-search tab-search">
+                                    <span class="fa fa-search form-control-feedback nav-icon"></span>
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                                <!-- End Ipad Search Box -->
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><img class="vector" src="images/vectoricon.png"></img>
+                                    </a>
+                                </li>
+                                <li class="nav-item nav-b">
+                                    <a class="nav-link" href="#"><img class="" src="images/icons/user-icon.png"></img>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- End Of Top NavBar Section -->
+
+                <br class="ex-space" /><br class="ex-space" /><br class="ex-space" /><br class="ex-space" />
+
+                <!-- Mobile Search Box -->
+                <div class="form-group has-search mb-search ">
+                    <img class="form-control-feedback nav-icon" src="images/icons/search.png" style="width: 21px; height: 20px; margin-top:17px;"></img>
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <!-- End Mobile Search Box -->
+
+                <br class="tab-search" /><br class="tab-search" /><br class="tab-search" />
+
+                <!-- Content Heading -->
+                <h2 class="lib-head">Bespoke Music</h2>
+				
+                <!-- End of Content Heading -->
+				
+            </div>
+			<!--<button data-toggle="modal" data-target="#NextBespoke" class="crtBtn">Next</button>-->
+			
+			
+			<!--Bespoke Music Modal -->
+				<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h2 class="modal-title" id="exampleModalLongTitle">Bespoke Music</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+					  </div>
+					  
+					  <div class="modal-body">
+						
+						<div class="row">
+						  
+							<div class="col-xl-1 col-lg-1 col-md-1 col-1">
+								<div class="pagi1">
+								<button class="pagi pg1"><span class="no1">1</span>
+									<img class="tick1" src="images/icons/tick.png"/>
+								</button>
+								<p class="pagiText pt1">Info</p>
+							</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-3 col-md-3 col-3">
+								<img class="midLine md1" src="images/midLine.png"/>
+							</div>
+							
+							<div class="col-xl-1 col-lg-1 col-md-1 col-1">
+								<div class="pagi2">
+								<button class="pagi pg2 cusWid"><span class="no2">2	</span><img class="tick2" src="images/icons/tick.png"/></button>
+								<p class="pagiText pt2">Song Details</p>
+							</div>
+							</div>
+						  
+						  </div>
+						  
+						  <div class="besDiv">
+						<img src="images/icons/besLine.png"/>
+					  </div>
+						
+						<div class="row">
+						
+						   <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						     <h3 class="mInfo">Info</h3>
+							 <div>
+							   <label class="lbl">What can we help you with?</label>
+							   <input type="text" class="myForm" placeholder="eg. Need 5 songs for my film">
+							 </div>
+							 
+							 <div class="textDiv">
+							   <label class="lbl">What can we help you with?</label>
+							   <textarea class="myText" placeholder="Billing Address"></textarea>
+							 </div>
+							 
+							 <div class="">
+							   <label class="lbl">Upload Reference Link</label>
+							   <input type="text" class="collB" placeholder="Paste Link">
+							 </div>
+					
+							</div>	
+						</div>
+						
+						<button data-toggle="modal" data-target="#NextBespoke" class="crtBtn">Next</button>
+
+				      </div>
+				    </div>
+				
+			       </div>
+			  </div>
+			<!--End Of Bespoke Music Modal -->
+			
+			
+			
+			<!--Next Bespoke Music Modal -->
+				<div class="modal fade" id="NextBespoke" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				  <div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h2 class="modal-title" id="exampleModalLongTitle">Bespoke Music</h2>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						  <span aria-hidden="true">&times;</span>
+						</button>
+					  </div>
+					  
+					  <div class="modal-body">
+						<div class="row">
+						  
+							<div class="col-xl-1 col-lg-1 col-md-1 col-1">
+								<div class="pagi1">
+								<button class="pagi pg1"><span class="no1">1</span>
+									<img class="tick1" src="images/icons/tick.png"/>
+								</button>
+								<p class="pagiText pt1">Info</p>
+							</div>
+							</div>
+							
+							<div class="col-xl-3 col-lg-3 col-md-3 col-3">
+								<img class="midLine md1" src="images/midLine.png"/>
+							</div>
+							
+							<div class="col-xl-1 col-lg-1 col-md-1 col-1">
+								<div class="pagi2">
+								<button class="pagi pg2 cusWid"><span class="no2">2	</span><img class="tick2" src="images/icons/tick.png"/></button>
+								<p class="pagiText pt2">Song Details</p>
+							</div>
+							</div>
+						  
+						  </div>
+						  
+						  <div class="besDiv">
+							<img src="images/icons/besLine.png"/>
+						  </div>
+						  <div class="nIDiv">
+							<p class="mInfo nInfo">Song Details</p>
+							<a class="ModalSBtn">
+								<img src="images/icons/less.png"/>
+								<span>Back</span>
+							</a>
+						  </div>
+						
+						<div class="row">
+						   <div class="col-xl-4 col-lg-4 col-md-4 btnGrid1">
+							   <button>Tempo</button>
+						   </div>
+						   
+						   <div class="col-xl-4 col-lg-4 col-md-4 mb btnGrid1">
+							    <button>Duration</button>
+						   </div>	
+						   
+						   <div class="col-xl-4 col-lg-4 col-md-4 mb btnGrid1">
+								<select>
+									<option>Vocals</option>
+									<option>Vocals</option>
+								</select>
+						   </div>	
+						</div>
+						
+						<h3 class="mGHead">Genre</h3>
+						<div class="row">
+							<!-- First Grid -->
+							<div class="col-xl-2 col-lg-2 col-md-4 GDiv">
+								<button>Alternative</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Blues</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Classical</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Electronic</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+							<button>Pop</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Folk</button>
+							</div>
+							<!-- End First Grid -->
+						</div>
+						<div class="row mt-3">
+							<!-- Second Grid -->
+							<div class="col-xl-2 col-lg-2 col-md-4 GDiv">
+								<button>Hip Hop</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Jazz</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Post Rock</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Rock</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+							<button>World</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Indie</button>
+							</div>
+							<!--End Second Grid -->
+						</div>
+						<div class="row mt-3">
+							<!-- Third Grid -->
+							<div class="col-xl-2 col-lg-2 col-md-4 GDiv">
+								<button>Soul</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Vintage</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Soul</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Ambient</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+							<button>Spoken Word</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>R & B</button>
+							</div>
+							<!--End Third Grid -->
+						</div>
+						<div class="row mt-3">
+							<!-- Forth Grid -->
+							<div class="col-xl-2 col-lg-2 col-md-4 GDiv">
+							<button>Cinematic</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Country</button>
+							</div>
+							<!--End Forth Grid -->
+							
+						</div>
+						<br class="mbNot"/>
+						<h3 class="mGHead">Mood</h3>
+						<div class="row">
+							<!-- First Grid -->
+							<div class="col-xl-2 col-lg-2 col-md-4 GDiv">
+								<button>Angry</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Carefree</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Chill</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Contemplative</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+							<button>Tense</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Serious</button>
+							</div>
+							<!-- End First Grid -->
+						</div>
+						<div class="row mt-3">
+							<!-- Second Grid -->
+							<div class="col-xl-2 col-lg-2 col-md-4 GDiv">
+								<button>Dramatic</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Dark</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Eerie</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Ecstatic</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+							<button>Powerful</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Uplifting</button>
+							</div>
+							<!--End Second Grid -->
+						</div>
+						<div class="row mt-3">
+							<!-- Third Grid -->
+							<div class="col-xl-2 col-lg-2 col-md-4 GDiv">
+								<button>Energetic</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Funny</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Groovy</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Happy</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+							<button>Peaceful</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Somber</button>
+							</div>
+							<!--End Third Grid -->
+						</div>
+						<div class="row mt-3 lstGrid">
+							<!-- Forth Grid -->
+							<div class="col-xl-2 col-lg-2 col-md-4 GDiv">
+							<button>Hopeful</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+								<button>Love</button>
+							</div>
+							<div class="col-xl-2 col-lg-2 col-md-4 mb GDiv">
+							<button>Motivational</button>
+							</div>
+							
+							<div class="col-xl-2 col-lg-2 col-md-4 tb GDiv">
+								<button>Sad</button>
+							</div>
+							<!--End Forth Grid -->
+							
+						</div>
+						
+						
+						<button class="crtBtn">Submit</button>
+						
+						
+
+				      </div>
+				    </div>
+				
+			       </div>
+			  </div>
+			<!--End Of Bespoke Music Modal -->
+			
+			
+			
+			
+			
+			<br class="d-none d-none1" /><br class="d-none d-none1" /><br class="d-none d-none1" /><br class="OnPadViewOnly"><br class="OnPadViewOnly"><br class="OnPadViewOnly"><br class="OnPadViewOnly"><br/>
+                
+            </div>
+            <!-- End Of Page content Section -->
+			
+			
+			
+			
+        </div>
+		
+        <div class="mob-s-div container d-none">
+            <img src="images/songs/my-img0.png" class="mob-s-img mt-3"></img>
+            <span class="mob-s-text ml-3 align-middle">Somebody Like Me</span>
+            <img src="images/icons/MobPlayIcon.png" class="mob-s-LeftMar"></img>
+            <span class="mob-s-btn">
+			  <img src="images/icons/MobPlayBtn.png" class="mob-s-btn-img"></img>
+		    </span>
+            <div class="showExpDiv">
+                <div style="text-align:center;">
+                    <img src="images/icons/mob-PLine.png" class="mt-4"></img><br/>
+                    <img src="images/songs/mob-SPic.png" class="mt-4"></img>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 mt-4" style="width:85%">
+                            <span class="mob-s-head">Somebody Like Me</span><br/>
+                            <span class="mob-s-subhead">Shubham Sachdev</span>
+                        </div>
+                        <div class="col-sm-6 mt-2" style="width:15%">
+                            <img src="images/icons/exp-iconP.png" class="mt-4" style="border-radius: 6px;"></img>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="mbMar">
+                    <img src="images/icons/zagImg.png" class="ml-3 mt-4"></img>
+                </a>
+                <a class="btn bt-pad ml-3 mt-2 mbMar1">
+                    <img src="images/icons/dots.png"></img>
+                </a>
+                <a class="btn bt-pad ml-4 mt-2 mbMar2">
+                    <img src="images/icons/exp-icon2.png"></img>
+                </a>
+                <a class="btn side-nav-btn btn2 mbMar3">Get License</a>
+            </div>
+        </div>
+    </div>
+    </div>
+	
+	<script src="JS/pagiClick.js"></script>
+
+    <script src="JS/div-hover.js"></script>
+	
+</body>
+
+</html>

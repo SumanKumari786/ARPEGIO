@@ -1,0 +1,373 @@
+.lib-head {
+    font-size: 96px;
+    font-family: 'Montserrat', sans-serif !important;
+    height: 104px;
+    text-transform: uppercase;
+}
+
+.s-content {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.NDs {
+    float: right;
+    margin-top: -4.9rem;
+}
+
+.a1 {
+    margin-left: 3rem;
+}
+
+.a2 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.a2:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.a2 b {
+    color: #000;
+}
+
+.artBtn {
+    float: right;
+    width: 160px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: -0.45rem;
+}
+
+.rowTop {
+    margin-top: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.rytBod{
+	border-right:2px solid rgba(0, 0, 0, 0.7);
+    flex: 0 0 46% !important;
+    max-width: 46% !important;
+}
+.bText{
+	font-family: 'Roboto', sans-serif !important;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 42px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.rytFloat{
+	float:right;
+	margin-right:4rem;
+	font-weight: normal !important;
+}
+
+.lftpd{margin-left:2rem;}
+
+.btnImgWid {
+    width: 101%;
+    margin-left: 0px;
+    margin-top: 0rem !important;
+}
+.Phead{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 48px;
+	color: rgba(0, 0, 0, 0.8);
+	margin-bottom:1.5rem;
+}
+
+.deHead{margin-top:3rem;}
+
+.dePara{
+	width: 558px;
+	height: 39px;
+	font-family: 'Roboto', sans-serif !important;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.deBtn{
+	width: 160px;
+	height: 40px;
+	float:right;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-top:0.2rem;
+}
+
+.mbIBtn {
+    width: 57px;
+    height: 45px;
+    background: #000000;
+    border-color: #000000;
+    border-radius: 8px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.c1 {
+    margin-right: 5.5rem;
+}
+.c2 {
+    margin-right: 4.8rem;
+}
+.c3 {
+    margin-right: 5.9rem;
+}
+.c5 {
+    margin-right: 2.5rem;
+}
+.c7 {
+    margin-right: 3.1rem;
+}
+.c8 {
+    margin-right: 4.6rem;
+}
+
+.OnPadViewOnly,
+.notD {
+    display: none;
+}
+
+@media (max-width: 2000px) {
+    .a1 {
+        margin-left: 3.5rem;
+    }
+    .btnImgWid {
+        width: 99%;
+        margin-left: 0px
+    }
+}
+
+@media (max-width: 1440px) {
+    .s-content {
+        flex: 0 0 77%;
+        padding-left: 0px;
+    }
+    .btnImgWid {
+        width: 101%;
+    }
+}
+
+@media (max-width: 1366px) {
+    .a1 {
+        margin-left: 2.6rem;
+    }
+    .btnImgWid {
+        width: 101%;
+        margin-left: 0px;
+        margin-top: 0rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .s-content {
+        padding-left: 8px;
+    }
+    .NDs {
+        margin-top: -3.9rem !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .a1 {
+        margin-left: 1.4rem;
+    }
+    .btnImgWid {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lib-head {
+        height: 170px;
+        font-size: 65px;
+    }
+    .s-content {
+        flex: unset !important;
+    }
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .NDs {
+        margin-top: -8rem !important;
+        position: absolute;
+        right: 0;
+    }
+    .a1 {
+        margin-left: 2.3rem;
+    }
+    .artBtn {
+        float: left;
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+        height: 50px;
+    }
+	.rytFloat{
+		margin-right:10px;
+	}
+	.bText{font-size:14px;}
+}
+
+@media (max-width: 992px) and (min-width:858px) {
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+}
+
+@media (max-width: 969px) and (min-width:858px) {
+    .s-content {
+        flex: unset !important;
+    }
+    .a1 {
+        margin-left: 1.7rem;
+    }
+	.rytFloat{
+		margin-right:0px;
+	}
+	.bText{font-size:14px;}
+}
+
+@media (max-width: 857px) and (min-width:769px) {
+    .col-lg-9.s-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    .lib-head {
+        height: 35px;
+        font-size: 57.4px;
+    }
+    .s-content {
+        padding-left: 15px;
+    }
+    .col-lg-9.s-content {
+        width: unset;
+    }
+    .NDs {
+        margin-top: -1.5rem !important;
+        right: 2.5%;
+    }
+    .d-none {
+        display: block !important;
+    }
+    .OnPadViewOnly,.ex-space {
+        display: none;
+    }
+}
+
+@media(max-width: 541px) and (min-width:420px) {
+    .d-none1 {
+        display: none !important;
+    }
+    .NDs {
+        margin-top: -1.2rem !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .lib-head {
+        height: 80px;
+        font-size: 45px;
+        margin-top: -4.5%;
+        display: inline-block;
+        width: 91%;
+    }
+    .NDs,
+    .notD {
+        display: unset;
+    }
+    .mTp {
+        margin-bottom: 0rem !important;
+        margin-top: -2.5rem !important;
+    }
+    .notD {
+        margin-top: 1.5rem !important;
+    }
+    .d-none1,
+    .txt1,
+    .notM {
+        display: none !important;
+    }
+    .a1 {
+        margin-left: 0rem;
+    }
+    .a1 b {
+        float: left;
+    }
+    .artBtn {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        height: 35px;
+    }
+    .btnImgWid {
+        margin-top: 0rem !important;
+    }
+	.pddM {
+		margin-top: -4rem !important;
+	}
+	.mbpdd{
+		margin-top:0.8rem !important;
+		margin-bottom:1.5rem !important;
+	}
+	.deHead {
+		margin-top: -0.5rem;
+	}
+	.rytBod {
+		border-right: 0px solid rgba(0, 0, 0, 0.7);
+		flex: 0 0 100% !important;
+		max-width: 100% !important;
+		margin-top:1.5rem;
+	}
+	.lftpd{margin-left:0px;}
+	.dePara{width:100%;height:unset;}
+	.deBtn{float:left;width:100%;margin-top:1rem !important;}
+}
+
+@media(max-width: 541px) {
+    .OnPadViewOnly {
+        display: none;
+    }
+}
+
+@media (max-width: 416px) {
+    .lib-head {
+        height: 70px;
+        margin-top: -4.5%;
+        width: 88%;
+        font-size: 38px;
+    }
+    .NDs {
+        margin-top: -1rem !important;
+    }
+}
+
+@media (max-width: 321px) {
+    .lib-head {
+        height: 91px;
+    }
+}

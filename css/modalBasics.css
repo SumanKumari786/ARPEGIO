@@ -1,0 +1,97 @@
+.modal-content{
+	min-width: 1230px !important;
+	height: 878px !important;
+	background: #FFFFFF !important;
+	border-radius: 8px !important;
+	padding: 33px;
+}
+.modal-dialog {
+    max-width: 86% !important;
+    margin: 1.75rem auto;
+}
+.modal-header{
+	border-bottom:0px !important;
+}
+
+.modal-title{
+	font-family: 'Montserrat', sans-serif !important;
+	font-size: 96px;
+	line-height: 104px;
+	color: #000000;
+	text-transform:uppercase;
+	margin-bottom:2rem;
+}
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    font-size: 4rem;
+	font-weight: normal;
+	opacity:1!important;
+}
+
+@media (max-width: 2000px) {}
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1440px) {
+    
+    
+}
+
+@media (max-width: 1366px) {
+	.modal-dialog {
+		max-width: 91% !important;
+		margin: 1.75rem auto;
+	}
+}
+
+@media (max-width: 1280px) {
+    
+	.modal-dialog {
+		max-width: 96% !important;
+		margin: 1.75rem auto;
+	}
+}
+
+@media (max-width: 1200px) {
+.modal-content {
+	min-width: 100% !important;
+}
+}
+
+@media(max-width: 767px) {
+	.modal-content{
+		height:100% !important;
+		padding: 33px 11px;
+	}
+}
+
+@media (max-width: 541px) {
+	.modal-title{
+		font-size: 50px;
+		line-height: 46px;
+	}
+}
+
+@media (max-width: 416px) {
+	.modal-header .close {
+		padding: 0.5rem 1rem !important;
+		font-size: 3rem;
+	}
+	.modal-title{
+		font-size: 38px;
+		line-height: 46px;
+	}
+}
+
+@media (max-width: 321px) {
+	.modal-title {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	
+}
+
+
+
+

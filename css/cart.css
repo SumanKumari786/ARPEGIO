@@ -1,0 +1,1046 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.s-content {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.lib-head {
+    font-size: 96px;
+    font-family: 'Montserrat', sans-serif !important;
+    height: 104px;
+    text-transform: uppercase;
+}
+
+.btnImgWid {
+    width: 101%;
+    margin-left: 0px;
+    margin-top: 2rem !important;
+}
+
+.OnPadViewOnly {
+    display: none;
+}
+
+.DeskViewNone,
+.DeskViewNone1,
+.OnlyMbView,.vMb,.notD {
+    display: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+.topMar {
+    margin-top: 1.2rem;
+}
+.NDs{
+	float:right;
+	font-size: 4rem;
+	margin-top: -6.8rem;
+	color:#000;
+}
+.NDs:hover{color:#000;}
+
+.ISubText {
+    width: 194.53px;
+    height: 44px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 12px !important;
+    color: #F3F3F3 !important;
+}
+
+.None {
+    display: none;
+}
+
+.cusPad{
+	padding-left:5px !important;
+	padding-right:0px !important;
+	margin-top: 2.5rem;
+}
+.cusPad1{
+	padding-left:5px !important;
+	padding-right:0px !important;
+}
+.cImg{
+	border-radius: 6px;
+}
+
+.cHead{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.cSubHead{
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 14px;
+	line-height: 22px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.cSubHead1{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+}
+.cSubHead1{
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.FBtn{
+	width: 255px;
+	height: 40px;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.cBtn{
+	width: 65px;
+	height: 48px;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+
+.ruImg{margin-right:0.2rem;margin-top:-0.1rem;}
+
+.mTp{
+	margin-top:1.35rem;
+}
+.mTp1{margin-top:0.7rem;}
+
+.ABtn {
+    float: right;
+}
+
+.DBtn{margin-left:1.35rem;}
+
+.DisDiv{margin-top:1rem;}
+
+.InHead{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.8);
+
+}
+.InBox{
+	width: 255px;
+	height: 40px;
+	border: 1.5px solid rgba(0, 0, 0, 0.6);
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.InBox:focus{outline:none;}
+
+.InBox::placeholder{padding-left:6px;}
+.InBtn{
+	width: 160px;
+	height: 40px;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 8px;
+	margin-left:0.8rem;
+}
+.tDiv{margin-top: 3rem;}
+.THead{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin-left:0.9rem;
+}
+
+.AText{
+	font-family: 'Roboto', sans-serif !important;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+	margin-left:2.2rem;
+}
+
+.ChkBtn{
+	width: 101%;
+	height: 48px;
+	background: #000000;
+	border-color: #000000;
+	border-radius: 8px;
+	box-sizing:border-box;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-top:3rem;
+}
+
+/* Checkout Modal */
+
+input:focus, textarea:focus, select:focus{outline:none;}
+
+input::placeholder, textarea::placeholder, select{padding-left:10px !important;}
+
+.modal-content{
+	min-width: 1230px !important;
+	height: 878px !important;
+	background: #FFFFFF !important;
+	border-radius: 8px !important;
+	padding: 33px;
+}
+.modal-dialog {
+    max-width: 86% !important;
+    margin: 1.75rem auto;
+}
+.modal-header{
+	border-bottom:0px !important;
+}
+
+.modal-title{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold;
+	font-size: 72px;
+	line-height: 80px;
+	color: #000000;
+}
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    font-size: 4rem;
+	opacity:1!important;
+}
+
+.modalBHead{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 48px;
+	color: rgba(0, 0, 0, 0.8);
+}
+.ModalSBtn{
+	width: 159px;
+	height: 40px;
+	background: #000000;
+	border-color: #000000;
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	float:right;
+}
+.mTextBox{
+	width: 540px;
+	height: 52px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 6px;
+	margin-top:1.5rem;
+}
+.mTextArea{
+	width: 540px;
+	height: 123.62px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 6px;
+	margin-top:1.5rem;
+}
+
+.mDrop{
+	width: 349.68px;
+	height: 52px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 6px;
+	margin-top:1.5rem;
+}
+.cvvDiv{
+	float:right;
+	margin-right:0.6rem;
+	margin-top:1.5rem;
+}
+
+.cvvBox{
+	width: 160px;
+	height: 52px;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+.visaText{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000000;
+	margin-right:1.5rem;
+}
+.drop {
+    position: absolute;
+    left: 58%;
+    top: 60%;
+}
+.drop1{
+	position: absolute;
+    left: 89.5%;
+    top: 60%;
+}
+
+.addText{
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 16px;
+	color: rgba(0, 0, 0, 0.8);
+	margin-top:0.5rem;
+	margin-bottom:0px;
+}
+
+.payBtn{width:100% !important;}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    width: 98%;
+}
+.myDrop .dropdown-menu{width: 63.5%;}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='35' viewBox='0 0 24 24' width='35' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 99%;
+  background-position-y: 50%;
+}
+
+select option:hover,
+select option:focus,
+select option:active {
+	background: #fff;
+	background-color: #fff !important; /* for IE */
+	color: #000 !important;
+}
+
+select option:checked {
+	background: linear-gradient(#000, #000);
+	background-color: #d6d6d6 !important; /* for IE */
+	color: #fff !important;
+}
+/* End Of Checkout Modal */
+
+/* Purchase Modal */
+
+.SingArtHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+	margin-bottom:0px;
+}
+.sWriter {
+    width: 141px;
+    height: 28px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.mImg{
+	width:350px;
+	height:350px;
+}
+.purHead{
+	font-family: 'Montserrat', sans-serif !important;
+	font-style: normal;
+	font-size: 96px;
+	line-height: 104px;
+	color: #000000;
+}
+.mPara{
+	width: 466px;
+	font-family: 'Roboto', sans-serif !important;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+	margin-top:1rem;
+}
+.mDBtn{
+	width: 322px;
+	height: 48px;
+	background: #000000;
+	border-color: #000000;
+	border-radius: 8px;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-top:2rem;
+}
+.mbTop{
+	margin-top:1.7rem;
+}
+.BoxBtn {
+    width: 160px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+	
+	position:absolute;
+	bottom:0;
+	left:2.5%;
+}
+.TText,.PText{
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.6);
+	position:absolute;
+	bottom:-1.8%;
+	right:2.2%;
+}
+.TText{right:13%;}
+
+/* End Of Purchase Modal */
+
+
+@media (max-width: 2000px) {
+    .btnImgWid {
+        width: 99%;
+        margin-left: 0px
+    }
+	.DBtn{margin-left:1.8rem;}
+	
+	.FBtn {
+		width: 262px;
+	}
+}
+
+@media (max-width: 1600px) {}
+
+@media (max-width: 1440px) {
+    .s-content {
+        flex: 0 0 77%;
+        padding-left: 0px;
+    }
+    .btnImgWid {
+        width: 101%;
+    }
+    .None {
+        display: block;
+    }
+	.FBtn {
+		width: 250px;
+	}
+	.DBtn{margin-left:1.35rem;}
+}
+
+@media (max-width: 1366px) {
+    .btnImgWid {
+        width: 101%;
+        margin-left: 0px;
+        margin-top: 0rem;
+    }
+	.cusPad{
+		margin-top: 1.5rem;
+	}
+	.FBtn {
+		width: 240px;
+	}
+	.DBtn{margin-left:1rem;}
+	
+	.modal-dialog {
+		max-width: 91% !important;
+		margin: 1.75rem auto;
+	}
+}
+
+@media (max-width: 1280px) {
+    .s-content {
+        padding-left: 8px;
+    }
+    .lib-head {
+        height: 60px;
+    }
+	.cusPad{
+		margin-top: 4rem;
+	}
+	.DBtn {
+		margin-left: 0.5rem;
+	}
+	.FBtn {
+		width: 220px;
+	}
+	.NDs {
+        margin-top: -3.9rem !important;
+    }
+	
+	.modal-dialog {
+		max-width: 96% !important;
+		margin: 1.75rem auto;
+	}
+}
+
+@media (max-width: 1200px) {
+    .lib-head {
+        height: 60px;
+    }
+    .btnImgWid {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .topMar {
+        margin-top: 0rem;
+    }
+    .MTop2,
+    .MTop3,
+    .MTop4,
+    .MTop5,
+    .MTop6,
+    .MTop7,
+    .MTop8 {
+        margin-top: 1.5rem;
+    }
+	.FBtn {
+		width: 196px;
+	}
+	.cBtn {
+		width: 58px;
+		height: 46px;
+	}
+	.DBtn {
+		margin-left: 0.2rem;
+	}
+	.InBox {
+		width: 235px;
+	}
+	.InBtn {
+		width: 135px;
+	}
+	.ChkBtn {
+		width: 100%
+	}
+	.modal-content {
+		min-width: 100% !important;
+	}
+	.AText{margin-left:1.6rem;}
+	.mTextBox {
+		width: 480px;
+	}
+	.mDrop {
+		width: 311px;
+	}
+	.mTextArea {
+		width: 487px;
+	}
+	.mWid{
+		max-width: 985px !important;
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+}
+
+@media (max-width: 1024px) {
+    .lib-head {
+        height: 170px;
+        font-size: 65px;
+    }
+    .IpadViewNone {
+        display: none;
+    }
+    .IpadView {
+        display: block;
+    }
+    .DeskViewNone {
+        display: block;
+    }
+    .DeskViewNone1 {
+        display: inline-block;
+    }
+    .IpadProBlock,.NotViewMb {
+        display: none;
+    }
+    .s-content {
+        flex: unset !important;
+    }
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .topMar {
+        margin-top: 0rem;
+    }
+    .MTop2,
+    .MTop3,
+    .MTop4,
+    .MTop5,
+    .MTop6,
+    .MTop7,
+    .MTop8 {
+        margin-top: 1.5rem;
+    }
+	.FBtn {
+		width: 216px;
+	}
+	.cBtn {
+		width: 55px;
+		height: 45px;
+	}
+	.ABtn {
+		margin-right: -3.5rem;
+	}
+	.DBtn {
+		margin-left: 1.1rem;
+	}
+	.cusPad {
+		margin-top: -3rem;
+	}
+	.NDs {
+		margin-top: -10.6rem !important;
+		position:absolute;
+		right:0;
+	}
+	.InBox {
+		width: 200px;
+	}
+	.InBtn {
+		width: 110px;
+		margin-left:0.5rem;
+	}
+	.mTextBox {
+		width: 420px;
+	}
+	.mDrop {
+		width: 275px;
+	}
+	.mTextArea {
+		width: 430px;
+	}
+	.TText {
+		right: 18%;
+	}
+}
+
+@media (max-width: 992px) and (min-width:858px) {
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+}
+
+@media (max-width: 969px) and (min-width:858px) {
+    .s-content {
+        flex: unset !important;
+    }
+	.FBtn {
+		width: 203px;
+	}
+	.DBtn {
+		margin-left: 0.61rem;
+	}
+	.ABtn {
+		margin-right: 0rem;
+	}
+	.cusPad {
+		margin-top: -4rem;
+	}
+	.InBox {
+		width: 200px;
+	}
+	.InBtn {
+		width: 110px;
+		margin-left:0rem;
+	}
+	.mTextBox {
+		width: 392px;
+	}
+	.mDrop {
+		width: 256px;
+	}
+	.mTextArea {
+		width: 403px;
+	}
+	.SmScrn{padding-left:3rem;}
+	
+	.SingArtHead {
+		font-size: 45px;
+		line-height: 55px;
+	}
+	.mPara {
+		width: 440px;
+	}
+	.mDBtn{margin-top:0.7rem;}
+}
+
+@media (max-width: 857px) and (min-width:769px) {
+    .col-lg-9.s-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    .s-content {
+        padding-left: 15px;
+    }
+    .ex-space {
+        display: none;
+    }
+    .lib-head {
+        height: 35px;
+        font-size: 57.4px;
+    }
+    .d-none {
+        display: block !important;
+    }
+    .OnPadViewOnly {
+        display: none;
+    }
+    .col-lg-9.s-content {
+        width: unset;
+    }
+    .topMar {
+        margin-top: 0rem;
+    }
+    .MTop2,
+    .MTop3,
+    .MTop4,
+    .MTop5,
+    .MTop6,
+    .MTop7,
+    .MTop8 {
+        margin-top: 1.5rem;
+    }
+	.cusPad {
+		margin-top: -1rem;
+	}
+	.ABtn {
+		margin-right: 0.4rem;
+	}
+	.SingArtCross {
+        margin-top: -8.2rem;
+    }
+	.NDs {
+		margin-top: -4.2rem !important;
+		right:2.5%;
+	}
+	.mTextBox {
+		width: 305px;
+	}
+	.mDrop {
+		width: 195px;
+	}
+	.mTextArea {
+		width: 305px;
+	}
+	.cvvBox {
+		width: 98px;
+		height:50px;
+	}
+	.purHead{
+		font-size: 45px;
+		line-height: 46px;
+	}
+	.SmScrn{padding-left:3rem;}
+	
+	.SingArtHead {
+		font-size: 34px;
+		line-height: 42px;
+	}
+	.mImg {
+		width: 285px;
+		height: 300px;
+	}
+	.mPara {
+		width: 358px;
+		margin-top:0.2rem;
+	}
+	.mDBtn{margin-top:0rem;}
+	.TText {
+		right: 21%;
+	}
+}
+
+@media(max-width: 541px) and (min-width:420px) {
+    .d-none1 {
+        display: none !important;
+    }
+	.NDs {
+		margin-top: -3.2rem !important;
+	}
+}
+
+@media (max-width: 767px) {
+    .lib-head {
+        height: 80px;
+        font-size: 45px;
+        margin-top: -4.5%;
+        display: inline-block;
+        width: 91%;
+    }
+    .btnImgWid {
+        margin-top: 0.9rem !important;
+    }
+    .NDs,.OnlyMbView {
+        display: unset;
+    }
+	.tp{margin-top:0.5rem;}
+    .d-none1,
+    .IpadView,.MbNone {
+        display: none !important;
+    }
+    .IpadProBlock {
+        display: block;
+    }
+    .topMar {
+        margin-top: 0rem;
+    }
+	.SingArtCross {
+        margin-left: 0.5rem !important;
+        margin-right: 0rem;
+        margin-top: -2.6rem;
+        font-size: 3rem;
+    }
+	.InBtn,.AText {
+		float: right;
+		margin-left:0rem;
+	}
+	.THead{margin-left:0rem;}
+	.ModalSBtn {
+		display: none;
+	}
+	
+	.mTextBox,.mTextArea,.mDrop {
+		width: 100%;
+	}
+	.cvvDiv {
+		float: left;
+	}
+	.drop {
+		left: 91%;
+	}
+	.purHead{
+		font-size: 38px;
+		line-height: 46px;
+	}
+	
+	.SmScrn {
+		padding-left: 15px;
+	}
+	
+	.mPara,.mDBtn{width:100%;}
+	.mPara{word-spacing: 3px;}
+	
+	.BoxBtn{
+		position: absolute;
+		bottom: 0;
+		left: 6%;
+		width:89%;
+	}
+	
+	.TText,.PText{position:unset;}
+	
+	.TText,.PText{
+		display:inline-block;
+		margin-bottom: 4rem;
+		margin-top: 3rem;
+	}
+	
+	.SingArtHead {
+		font-size: 28px;
+		line-height: 36px;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.mDBtn{margin-top:1rem;}
+	
+	.PText{float:right;}
+	
+	.modal-content{height:100% !important;padding: 33px 11px;}
+}
+
+@media(max-width: 541px) {
+    .OnPadViewOnly {
+        display: none;
+    }
+	.notD{display:unset;margin-top:2rem !important;}
+	.tDiv {
+		margin-top: 2rem;
+	}
+	.notM{visibility:hidden;}
+	.FBtn {
+		width: 188px;
+	}
+	.DBtn {
+		margin-left: 0.4rem;
+	}
+	.InBox {
+		width: 370px;
+	}
+	.cvvBox {
+		width: 169px;
+		margin-left: 6rem !important;
+		height: 50px;
+	}
+	.mImg {
+		width: 100%;
+		height: 100%;
+	}
+	.mbBot{margin-top:-5rem !important;}
+}
+
+@media (max-width: 416px) {
+    .lib-head {
+        height: 70px;
+        margin-top: -4.5%;
+        width: 88%;
+        font-size: 38px;
+    }
+	.cHead {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.cSubHead {
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.cSubHead1,.cSubHead2{
+		font-size: 13px;
+		line-height: 22px;
+	}
+	.ABtn {
+		margin-right: 0rem;
+	}
+	.cBtn {
+		width: 68px;
+		height: 48px;
+		float:right;
+	}
+	.top1 {
+		margin-top: 0.5rem;
+	}
+	.tp {
+		margin-top: 0.2rem;
+	}
+	.FBtn,.nMb,.mbNV{display:none;}
+	
+	.vMb{display:unset;}
+	.SingArtCross {
+        margin-top: -2.4rem;
+    }
+	.NDs {
+		margin-top: -3.3rem !important;
+	}
+	.InBox {
+		width: 250px;
+	}
+	.cvvBox {
+		width: 144px;
+		margin-left: 0rem !important;
+	}
+	.modal-title{
+		font-size: 34px;
+		line-height: 42px;
+	}
+	.modalBHead{
+		font-size: 26px;
+		line-height: 34px;
+		margin-top:-2rem;
+	}
+	.modal-header .close {
+		padding: 0.5rem 1rem !important;
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 376px) {
+	.cBtn {
+		width: 65px;
+	}
+	.InBox {
+		width: 218px;
+	}
+	.cvvBox {
+		width: 106px;
+	}
+	
+}
+
+@media (max-width: 361px) {
+	img.ruImg {
+		width: 6px;
+	}
+	.InBox {
+		width: 200px;
+	}
+	.InBox {
+		width: 165px;
+	}
+	.visaText{margin-right:0.5rem;}
+}
+
+@media (max-width: 321px) {
+    .lib-head {
+        height: 91px;
+    }
+	img.ruImg {
+		width: 5px;
+	}
+	.cSubHead1 {
+		font-size: 10.5px;
+		line-height: 20px;
+	}
+	.cvvBox {
+		width: 69px;
+	}
+	.modal-title {
+		font-size: 30px;
+		line-height: 38px;
+	}
+	
+}

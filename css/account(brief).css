@@ -1,0 +1,700 @@
+.s-content {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.top {
+    margin-top: 4rem !important;
+}
+
+.lib-head {
+    font-size: 96px;
+    font-family: 'Montserrat', sans-serif !important;
+    line-height: 104px;
+    text-transform: uppercase;
+}
+
+.libSubhead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 1.5rem;
+}
+
+.NDs {
+    float: right;
+    font-size: 4rem;
+    margin-top: -5.6rem;
+    color: #000;
+}
+
+.NDs:hover {
+    color: #000;
+}
+
+.GHead {
+    height: 28px;
+    margin-bottom: 0rem;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.GSubHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0rem;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.border-left {
+    border-left: 3px solid #dee2e6!important;
+}
+
+.SingArtDiv2 .side-nav-btn {
+    margin-top: 18px;
+    margin-left: 1.2rem;
+    border-radius: 6px;
+}
+
+.SingArtDiv2 .side-nav-btn:focus {
+    box-shadow: none;
+}
+
+.SingArtDiv {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+
+.sListViewImg {
+    border-radius: 6px;
+}
+
+.sListViewHead {
+    /*width: 70.34px;*/
+    height: 26px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.sListViewSubHead {
+    width: 160px;
+    height: 22px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sListDots {
+    margin-top: -.4rem;
+    margin-left: 2.8rem;
+}
+
+.sBtn0 {
+    background: #000;
+    width: 80px;
+    height: 55px;
+    border-radius: 6px;
+}
+
+.sBtn0Img {
+    width: 30px;
+    height: 30px;
+}
+
+.sHeadtopMar {
+    margin-top: .55rem;
+}
+
+.sHead1 {
+    width: 86px;
+    height: 48px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sListMike {
+    margin-left: 3.5rem;
+    margin-top: .10rem !important;
+}
+
+.sListTime {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 1.4rem !important;
+    margin-left: 2rem;
+}
+
+.sListZigImg {
+    width: 180px;
+    height: 51px;
+    margin-left: 0rem;
+    margin-top: .30rem !important;
+}
+
+.mbPBtn {
+    width: 100%;
+    height: 40px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+}
+
+.OnPadViewOnly,
+.DeskViewNone,
+.DeskViewNone1,
+.mbPBtn,
+.mbIBtn {
+    display: none;
+}
+
+
+/* Mobile Modal */
+
+.modal-title {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.modal-header .close {
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+    opacity: 1;
+    font-size: 2rem;
+}
+
+
+/* end Modal */
+
+@media (max-width: 3000px) {
+    .SingArtDiv {
+        margin-right: -.5rem;
+    }
+}
+
+@media (max-width: 2000px) {
+    .SingArtDiv {
+        max-width: 1175px !important;
+    }
+}
+
+@media (max-width: 1600px) {
+    .SingArtDiv {
+        max-width: 1175px !important;
+    }
+    .sListZigImg {
+        margin-top: .40rem !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .s-content {
+        flex: 0 0 77%;
+        padding-left: 0px;
+    }
+    .libSubhead {
+        margin-top: 2rem;
+    }
+    .sListMike {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 1400px) {
+    .sListViewHead {
+        width: 160px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .libSubhead {
+        margin-top: 1.5rem;
+    }
+    .top {
+        margin-top: 3rem !important;
+    }
+    .SingArtDiv {
+        max-width: 1140px !important;
+    }
+    .SingArtDiv2 {
+        margin-left: 1.5rem;
+        margin-right: -1.5rem;
+    }
+    .SingArtDiv {
+        margin-right: 0rem;
+    }
+    .sListDots {
+        margin-top: -.4rem;
+        margin-left: 2.8rem;
+    }
+    span.sHead1 {
+        margin-left: 1rem;
+    }
+    .sListMike {
+        margin-left: 3.5rem;
+    }
+    .sListTime {
+        margin-left: 2rem;
+    }
+    .sListZigImg {
+        width: 180px;
+        height: 51px;
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width: 1340px) {
+    .sListMike {
+        margin-left: 3rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .s-content {
+        padding-left: 8px;
+    }
+    .lib-head {
+        height: 60px;
+    }
+    .libSubhead {
+        margin-top: 4.5rem;
+    }
+    .NDs {
+        margin-top: -5.5rem !important;
+    }
+    .container.text-center.mt-5.MobileViewNone {
+        margin-top: 2rem !important;
+    }
+    .SingArtDiv2 {
+        margin-left: 2.5rem;
+        margin-right: -2.5rem;
+    }
+    .SingArtDiv1 {
+        margin-top: 5.5rem;
+    }
+    .SingArtDiv {
+        margin-right: -0.5rem;
+    }
+    .sListZigImg {
+        margin-top: .50rem !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .lib-head {
+        height: 60px;
+    }
+    .GHead {
+        font-size: 16.2px;
+    }
+    .GSubHead {
+        font-size: 14px;
+    }
+    .SingArtDiv2 {
+        margin-left: 4rem;
+        margin-right: -4rem;
+    }
+    .sListDots,
+    .sListShare,
+    .sListPlus,
+    .sListViewBtn {
+        margin-left: 1.2rem;
+    }
+    span.sHead1 {
+        margin-left: 0rem;
+    }
+    .sListMike {
+        margin-left: 2rem;
+    }
+    .sListTime {
+        margin-left: 1rem;
+    }
+    .sListZigImg {
+        margin-left: -1.8rem;
+        margin-top: .60rem !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .lib-head {
+        height: 125px;
+    }
+    .libSubhead {
+        margin-top: 0rem;
+    }
+    .s-content {
+        flex: unset !important;
+    }
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .NDs {
+        margin-top: -5.6rem !important;
+        position: absolute;
+        right: 0;
+    }
+    .SingArtDiv2 {
+        max-width: 100%;
+        margin-left: -6rem;
+    }
+    .SingArtDiv1 {
+        margin-top: 0.8rem;
+    }
+    .OnIpadDiv {
+        margin-left: 3rem;
+        max-width: 25%;
+    }
+    .IpadViewNone {
+        display: none;
+    }
+    .DeskViewNone {
+        display: block;
+    }
+    .DeskViewNone1 {
+        display: inline-block;
+    }
+    .sListPlay1 {
+        height: 30px;
+        width: 30px;
+    }
+    .sListPlay1 {
+        margin-top: 1.19rem;
+        margin-left: 3.5rem;
+    }
+    .sListDots {
+        height: 30px;
+        margin-top: 1.2rem;
+    }
+    .sBtn0Div {
+        text-align: right;
+        margin-top: .4rem;
+    }
+    .sBtn0 {
+        margin-right: .3rem;
+    }
+}
+
+@media (max-width: 992px) and (min-width:858px) {
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .MobileViewNone {
+        margin-top: 6rem !important;
+    }
+    .OnIpadDiv {
+        margin-left: 3.5rem;
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 969px) and (min-width:858px) {
+    .s-content {
+        flex: unset !important;
+    }
+    .OnIpadDiv {
+        margin-left: 0rem;
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 857px) and (min-width:769px) {
+    .col-lg-9.s-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    .lib-head {
+        height: 78px;
+        font-size: 57.4px;
+    }
+    .s-content {
+        padding-left: 15px;
+    }
+    .col-lg-9.s-content {
+        width: 100%;
+    }
+    .NDs {
+        margin-top: -5.8rem !important;
+        right: 2.5%;
+    }
+    .GHead {
+        font-size: 15px;
+    }
+    .d-none {
+        display: block !important;
+    }
+    .OnPadViewOnly,
+    .ex-space {
+        display: none;
+    }
+    .container.text-center.mt-5.MobileViewNone {
+        margin-top: 0rem !important;
+    }
+    .SingArtDiv {
+        margin-right: 0rem;
+    }
+    .OnIpadDiv {
+        margin-left: 0rem;
+    }
+    .sListPlay1 {
+        height: 30px;
+        width: 30px;
+        margin-top: 1.19rem;
+        margin-left: 3.5rem;
+    }
+    .sListDots {
+        height: 30px;
+        margin-top: 1.2rem;
+    }
+    .sBtn0Div {
+        text-align: right;
+        margin-top: .4rem;
+    }
+    .sBtn0 {
+        margin-right: .5rem;
+    }
+}
+
+@media(max-width: 541px) and (min-width:420px) {
+    .d-none1 {
+        display: none !important;
+    }
+    .NDs {
+        margin-top: -5.2rem !important;
+    }
+    .OnMobDiv {
+        width: 20%;
+    }
+    .OnIpadDiv {
+        margin-left: 0rem;
+    }
+    .sListPlay1 {
+        height: 30px;
+        width: 30px;
+        margin-top: 1.19rem;
+        margin-left: 3.5rem;
+    }
+    .sListDots {
+        height: 30px;
+        margin-top: 1.2rem;
+    }
+    .sBtn0Div {
+        text-align: right;
+        margin-top: 0rem;
+    }
+    .sBtn0 {
+        margin-right: .5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .lib-head {
+        height: unset;
+        font-size: 45px;
+        margin-top: -4.5%;
+        display: inline-block;
+        width: 87%;
+    }
+    .libSubhead {
+        font-size: 34px;
+        line-height: 38px;
+    }
+    .NDs,
+    .mbPBtn,
+    .mbIBtn {
+        display: unset;
+    }
+    .mbIBtn {
+        width: 57px;
+        height: 45px;
+        background: #000000;
+        border-radius: 8px;
+        position: relative;
+        top: -9px;
+    }
+    .d-none1,
+    .MobileViewNone {
+        display: none !important;
+    }
+    .SingArtDiv1 {
+        margin-top: 0rem;
+    }
+    .sListViewHead {
+        font-size: 14px;
+        line-height: 24px;
+        width: 160px;
+    }
+    .sListViewSubHead {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    /* Mobile Modal*/
+    .GHead,
+    .GSubHead {
+        text-align: center;
+    }
+    .GSubHead {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
+    }
+    .midBod .bod {
+        border-right: 1.5px solid rgba(0, 0, 0, 0.3);
+    }
+    /* end modal*/
+}
+
+@media(max-width: 541px) {
+    .OnPadViewOnly {
+        display: none;
+    }
+}
+
+@media (max-width: 416px) {
+    .lib-head {
+        height: 90px;
+        margin-top: -4.5%;
+        width: 83%;
+        font-size: 38px;
+    }
+    .mbIBtn {
+        top: -5px;
+    }
+    .NDs {
+        margin-top: -4.7rem !important;
+        font-size: 3.5rem;
+    }
+    .libSubhead {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .OnMobDiv {
+        width: 18.6%;
+    }
+    .sListPlay1 {
+        margin-left: 4.8rem;
+    }
+    .sListDots {
+        margin-left: 4rem;
+    }
+    .sBtn0 {
+        width: 40px;
+        height: 40px;
+        margin-top: 0.56rem;
+        margin-right: -1.8rem;
+    }
+    .sBtn0Img {
+        width: 18px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 376px) {
+    .lib-head {
+        width: 82%;
+    }
+    .OnMobDiv {
+        width: 20%;
+    }
+    .OnIpadDiv {
+        margin-top: .58rem!important;
+    }
+    .sListViewHead,
+    .sListViewSubHead {
+        margin-left: 0.3rem;
+    }
+    .sListPlay1 {
+        height: 18px;
+        width: 16px;
+        margin-left: 4.8rem;
+        margin-top: 1.57rem;
+    }
+    .sListDots {
+        height: 22px;
+        width: 6px;
+        margin-top: 1.56rem;
+        margin-left: 3.2rem;
+    }
+    .sBtn0Img {
+        width: 18px;
+        height: 16px;
+    }
+    .sBtn0 {
+        width: 32px;
+        height: 32px;
+        margin-right: -.1rem;
+        margin-top: 0.7rem;
+    }
+}
+
+@media (max-width: 361px) {
+    .lib-head {
+        width: 81%;
+    }
+}
+
+@media (max-width: 321px) {
+    .lib-head {
+        height: 91px;
+    }
+    .sListViewHead {
+        width: 105px;
+    }
+    .sListViewSubHead {
+        width: 101px;
+    }
+    .sListViewHead,
+    .sListViewSubHead {
+        margin-left: 0.6rem;
+    }
+    .sListPlay1 {
+        margin-left: 4.4rem;
+    }
+    .sListDots {
+        margin-left: 2.5rem;
+    }
+}

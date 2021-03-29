@@ -1,0 +1,263 @@
+.lib-head {
+    font-size: 96px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: normal;
+    line-height: 104px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.s-content {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.NDs img {
+    margin-top: 2.3rem;
+}
+
+.bSubhead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 1px;
+}
+
+.bDate {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.bldHead {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.bPara {
+    width: 558px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.nrmP {
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.subBtn {
+    float: right;
+    margin-right: -0.7rem;
+    width: 160px;
+    height: 48px;
+    background: #000000;
+    border-color: #000000;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.OnPadViewOnly,
+.notD {
+    display: none;
+}
+
+@media (max-width: 2000px) {}
+
+@media (max-width: 1440px) {
+    .s-content {
+        flex: 0 0 77%;
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 1366px) {}
+
+@media (max-width: 1280px) {
+    .s-content {
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 1024px) {
+    .s-content {
+        flex: unset !important;
+    }
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+    .NDs img {
+        margin-left: 0.2rem !important;
+    }
+}
+
+@media (max-width: 992px) and (min-width:858px) {
+    .col-lg-9.s-content {
+        width: 72%;
+    }
+}
+
+@media (max-width: 969px) and (min-width:858px) {
+    .s-content {
+        flex: unset !important;
+    }
+}
+
+@media (max-width: 969px) {
+    .notD {
+        display: unset;
+    }
+}
+
+@media (max-width: 857px) and (min-width:769px) {
+    .col-lg-9.s-content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 769px) {
+    .tab1 {
+        display: none;
+    }
+    .s-content {
+        padding-left: 15px;
+    }
+    .col-lg-9.s-content {
+        width: 1200px;
+    }
+    .d-none {
+        display: block !important;
+    }
+    .OnPadViewOnly,
+    .ex-space {
+        display: none;
+    }
+    .form-group {
+        margin-bottom: 0rem;
+    }
+    .navbar {
+        padding: 10px 0px 0px;
+    }
+    .navbar {
+        margin-bottom: 18px;
+    }
+}
+
+@media(max-width: 541px) and (min-width:420px) {
+    .d-none1 {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .lib-head {
+        height: 10px;
+        font-size: 38px;
+        line-height: 56px;
+        display: inline-block;
+        width: 88%;
+    }
+    .NDs,
+    .notD {
+        display: unset;
+    }
+    .notD {
+        margin-top: 1.5rem !important;
+    }
+    .d-none1,
+    .mbDNone,
+    .notM {
+        display: none !important;
+    }
+    .bPara {
+        width: 100%;
+    }
+    .NDs img {
+        margin-left: -0.4rem !important;
+        width: 18px;
+        margin-top: -4.3rem;
+    }
+    .bSubhead {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .bDate {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .subBtn {
+        font-size: 16px;
+        float: unset;
+    }
+    .bldHead,
+    .bPara {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .mbImg {
+        width: 257px;
+        height: 143px;
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width: 541px) {
+    .OnPadViewOnly {
+        display: none;
+    }
+    .navbar {
+        margin-bottom: 42px;
+    }
+}
+
+@media (max-width: 416px) {
+    .lib-head {
+        width: 82%;
+        font-size: 38px;
+    }
+    .NDs img {
+        margin-left: -1.4rem !important;
+    }
+}
+
+@media (max-width: 321px) {
+    .lib-head {
+        height: 60px;
+        width: 79%;
+        margin-top: 1.6rem;
+    }
+    .navbar {
+        margin-bottom: 8px;
+    }
+    .col-11 {
+        max-width: 90% !important;
+    }
+    .NDs img {
+        margin-top: -6.5rem;
+    }
+}
